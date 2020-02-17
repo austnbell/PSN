@@ -1,0 +1,3 @@
+/data/*
+!/data/clinical variables.txt
+/Patient-Similarity-credentials.json
