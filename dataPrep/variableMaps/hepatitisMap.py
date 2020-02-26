@@ -1,0 +1,65 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 18 11:11:30 2020
+
+Mapping values for Hepatitis 
+
+@author: Austin Bell
+"""
+
+hep_b_antibody = {
+        'POSITIVE': 4, 
+        'POSITIVE,TITER IS > 450MIU/ML': 4,  
+        'NEGATIVE': 0, 
+        'BORDERLINE POSITIVE -- C/W TITER OF ROUGHLY 10 MIU/ML': 1, 
+        'POSITIVE,TITER IS GREATER THAN 450 MIU/ML': 4,  
+        'POSITIVE, TITER IS GREATER THAN 450 MIU/ML': 4, 
+        'POSITIVE,TITER IS BETWEEN 100 AND 450 MIU/ML': 3,  
+        'BORDERLINE POSITIVE': 1, 
+        'POSITIVE,TITER IS GREATER THAN 450/MIU/ML': 4, 
+        'POSITIVE,TITER IS > 450 MIU/ML': 4, 
+        'POSITIVE,TITER IS >450 MIU/ML': 4, 
+        'POSITIVE TITER IS > 450 MIU/ML': 4, 
+        'POSITIVE -- C/W TITER OF MORE THAN 100 MIU/ML': 3, 
+        'POSITIVE,TITER IS BETWEEN 150 AND 450 MIU/ML': 3, 
+        'POSITIVE,TITER IS BETWEEN 10 AND 100 MIU/ML': 2, 
+        'POSITIVE TITER IS GREATER THAN 450': 4, 
+        'POSITIVE, TITER IS >450 MIU/ML': 4, 
+        'POSITIVE TITER IS GREATER THAN 450 MIU/ML': 4, 
+        'POSITIVE, TITER IS BETWEEN 100 AND 450 MIU/ML': 3, 
+        'POSITIVE TITER IS >450 MIU/ML': 4, 
+        'BORDERLINE, CONSISTENT WITH A TITER OF 10 MIU/ML': 1, 
+        'POSITIVE - TITER IS GREATER THAN 450 MIU/ML': 4, 
+        'POSITIVE TITER IS GREATER THAN450MIU/ML': 4, 
+        'POSITIVE, TITER IS >450/MIU/ML': 4, 
+        'POSITIVE, TITER GREATER THAN 450MIU/ML': 4, 
+        'NEGATIVE - Level less than 10 miu/ml': 0, 
+        'POSITIVE, TITER IS BETWEEN 100 AND 450MIU/ML': 3, 
+        'POSITIVE,TITER IS BETWEEN 10 AND 150 MIU/ML': 2, 
+        'POSITIVE,POSITIVE TITER IS GREATER THAN 450': 4, 
+        'POSITIVE TITER IS GREATER THAN 450MIU/ML': 4, 
+        'POSITIVE. TITER IS BETWEEN 100 AND 450 MIU/ML': 3, 
+        'POSITIVE,TITER IS GREATER THAN 450MIU/ML': 4, 
+        'POSITIVE,TITER GREATER THAN 450 MIU/ML': 4
+        }
+
+hep_b_antigen ={
+        "NEGATIVE": 0,
+        "POSITIVE": 0
+        }
+
+Hep_c_antibody ={
+        'POSITIVE':2, 
+        'NEGATIVE':0, 
+        'INDETERMINATE':-1, 
+        'INDETERMINATE RESULT':-1, 
+        'EQUIVOCAL':1
+        }
+
+hep_b_virus_antibody = {
+        'NEGATIVE':0, 
+        'POSITIVE':3, 
+        'BORDERLINE POSITIVE':2, 
+        'EQUIVOCAL':1, 
+        'INDETERMINATE RESULT':-1
+        }
