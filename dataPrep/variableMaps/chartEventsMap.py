@@ -18,6 +18,7 @@ chartMap = {
         "Clear liquid": "Clear Liquid",
         "House - Regular": "House",
         "NAS/Low Cholest": "NAS/Low Cholesterol",
+        "Sl. Limited": "Slight Limitations",
         
         # a lot of changes in the demographic setting
         "Fam Talked to RN": "Family Talked to RN",
