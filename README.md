@@ -7,3 +7,5 @@ Flow of the current analysis:
   2. SimilarityMatrices
   3. graphAnalysis
   4. HEOR
+
+The interactive application is contained in the shiny folder 
