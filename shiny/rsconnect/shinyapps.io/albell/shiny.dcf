@@ -1,0 +1,12 @@
+name: shiny
+title: shiny
+username:
+account: albell
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2050238
+bundleId: 2964396
+url: https://albell.shinyapps.io/shiny/
+when: 1585922254.41649
+asMultiple: FALSE
+asStatic: FALSE

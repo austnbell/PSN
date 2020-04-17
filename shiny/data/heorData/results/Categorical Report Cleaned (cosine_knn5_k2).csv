@@ -1,0 +1,69 @@
+variable,primary_label,primary_cluster_value,primary_other_value,secondary_label,secondary_cluster_value,secondary_other_value,tertiary_label,tertiary_cluster_value,tertiary_other_value,p_value,data_subgroup,cluster
+activity,Bedrest,0.99,0.98,Chair,0.0,0.01,Commode,0.0,0.01,0.4861,activity,0
+activity_tolerance,Tolerated Well,0.93,0.8,Good,0.04,0.18,Fair,0.02,0.02,0.0,activity,0
+braden_activity,Bedfast,0.92,0.9,Chairfast,0.04,0.05,Walks Occasionally,0.04,0.04,0.3649,activity,0
+braden_mobility,Slight Limitations,0.49,0.55,Very Limited,0.37,0.32,Completely Immobile,0.07,0.06,0.0041,activity,0
+family_communication,Family Visited,0.67,0.5,Family Called,0.27,0.18,Family Talked to MD,0.03,0.05,0.0,demographics,0
+marital_status,Married,0.46,0.44,Single,0.35,0.4,Divorced,0.09,,0.0,demographics,0
+race,White,0.72,0.68,Black / African,0.17,0.11,Hispanic or Latino,0.06,0.06,0.0001,demographics,0
+gender,M,0.67,0.66,F,0.33,0.34,,,,0.4559,demographics,0
+appetite,Good,0.36,0.39,Fair,0.32,0.29,Poor,0.25,0.24,0.9217,diet,0
+braden_nutrition,Probably Inadequate,0.74,0.68,Adequate,0.19,0.23,Very Poor,0.06,0.08,0.0002,diet,0
+diet_type,NPO,0.63,0.65,Tube Feeding,0.11,0.09,House,0.07,0.09,0.0,diet,0
+special_diet,0,0.54,0.67,1,0.46,0.33,,,,0.0105,diet,0
+heart_rhythm,Normal Sinus,0.73,0.03,ST (Sinus Tachycardia) ,0.13,0.16,AF (Atrial Fibrillation),0.05,0.05,0.0,heart lung,0
+lll_lung_sounds,Diminished,0.46,0.59,Clear,0.36,0.33,Coarse,0.12,0.01,0.0,heart lung,0
+lul_lung_sounds,Clear,0.79,0.88,Coarse,0.18,0.01,Diminished,0.01,0.03,0.0,heart lung,0
+rll_lung_sounds,Diminished,0.46,0.59,Clear,0.36,0.32,Coarse,0.13,0.01,0.0,heart lung,0
+rul_lung_sounds,Clear,0.79,0.89,Coarse,0.18,0.01,Diminished,0.01,0.02,0.0,heart lung,0
+respiratory_effort,Normal,0.95,0.97,Shallow,0.03,0.01,Dyspneic,0.01,0.0,0.0042,heart lung,0
+respiratory_pattern,Regular,0.98,0.97,Tachypneic,0.02,0.02,Irregular,0.0,0.0,0.2036,heart lung,0
+mental_status,Forgets limitations,0.52,0.55,Oriented to own ability,0.48,0.45,,,,0.5292,medical history,0
+recreational_drug_use,0,0.79,0.8,1,0.21,0.2,,,,0.9043,medical history,0
+pain_cause,At Rest,0.67,0.69,Movement/Turning,0.09,0.07,Activity,0.06,0.05,0.0,pain,0
+pain_location,Not Indicated,0.78,0.65,Incisional,0.07,0.09,Abdominal,0.07,0.11,0.0,pain,0
+pain_present,No,0.79,0.66,Yes,0.21,0.34,,,,0.0,pain,0
+pain_type,None,0.63,0.6,Aching,0.17,0.04,Constant,0.11,0.23,0.0,pain,0
+abdominal_assessment,Soft,0.42,0.46,Soft Distended,0.27,0.31,Ascites,0.14,0.09,0.0,physical assessment,0
+bowel_sounds,Present,0.79,0.82,Hypoactive,0.13,0.13,Absent,0.08,0.05,0.0074,physical assessment,0
+braden_moisture,Rarely Moist,0.5,0.5,Occasionally Moist,0.46,0.48,Moist,0.03,0.02,0.0066,physical assessment,0
+cough_reflex,Intact,0.8,0.82,Impaired,0.13,0.15,Absent,0.07,0.03,0.0002,physical assessment,0
+gag_reflex,Intact,0.68,0.76,Impaired,0.22,0.2,Absent,0.09,0.04,0.0001,physical assessment,0
+oral_cavity,Teeth/Tissue WNL,0.94,0.91,Bleeding Gum,0.03,0.03,Thrush,0.01,0.01,0.0,physical assessment,0
+skin_color,Normal for Race,0.58,0.75,Jaundiced,0.32,0.19,Pale,0.06,0.04,0.0,physical assessment,0
+skin_condition,Dry,0.69,0.01,Dry ,0.3,0.99,Clammy,0.01,0.0,0.0,physical assessment,0
+speech,Normal,0.55,0.67,Intubated/trached,0.33,0.27,Garbled,0.07,0.03,0.0,physical assessment,0
+activity,Bedrest,0.98,0.99,Commode,0.01,0.0,Chair,0.01,0.0,0.4861,activity,1
+activity_tolerance,Tolerated Well,0.8,0.93,Good,0.18,0.04,Fair,0.02,0.02,0.0,activity,1
+braden_activity,Bedfast,0.9,0.92,Chairfast,0.05,0.04,Walks Occasionally,0.04,0.04,0.3649,activity,1
+braden_mobility,Slight Limitations,0.55,0.49,Very Limited,0.32,0.37,No Limitations,0.07,0.06,0.0041,activity,1
+family_communication,Family Visited,0.5,0.67,Family Talked to RN,0.26,0.03,Family Called,0.18,0.27,0.0,demographics,1
+marital_status,Married,0.44,0.46,Single,0.4,0.35,Divored,0.1,0.02,0.0,demographics,1
+race,White,0.68,0.72,Black / African,0.11,0.17,Hispanic or Latino,0.06,0.06,0.0002,demographics,1
+gender,M,0.66,0.67,F,0.34,0.33,,,,0.4559,demographics,1
+appetite,Good,0.39,0.36,Fair,0.29,0.32,Poor,0.24,0.25,0.9217,diet,1
+braden_nutrition,Probably Inadequate,0.68,0.74,Adequate,0.23,0.19,Very Poor,0.08,0.06,0.0002,diet,1
+diet_type,NPO,0.65,0.63,House,0.09,0.07,Tube Feeding,0.09,0.11,0.0,diet,1
+special_diet,0,0.67,0.54,1,0.33,0.46,,,,0.0105,diet,1
+heart_rhythm,SR (Sinus Rhythm),0.71,0.04,ST (Sinus Tachycardia) ,0.16,0.13,AF (Atrial Fibrillation),0.05,0.05,0.0,heart lung,1
+lll_lung_sounds,Diminished,0.59,0.46,Clear,0.33,0.36,Rhonchi,0.04,0.0,0.0,heart lung,1
+lul_lung_sounds,Clear,0.88,0.79,Rhonchi,0.08,0.01,Diminished,0.03,0.01,0.0,heart lung,1
+rll_lung_sounds,Diminished,0.59,0.46,Clear,0.32,0.36,Rhonchi,0.04,0.0,0.0,heart lung,1
+rul_lung_sounds,Clear,0.89,0.79,Rhonchi,0.08,0.01,Diminished,0.02,0.01,0.0,heart lung,1
+respiratory_effort,Normal,0.97,0.95,Shallow,0.01,0.03,Labored,0.01,0.01,0.0084,heart lung,1
+respiratory_pattern,Regular,0.97,0.98,Tachypneic,0.02,0.02,Irregular,0.0,0.0,0.1114,heart lung,1
+mental_status,Forgets limitations,0.55,0.52,Oriented to own ability,0.45,0.48,,,,0.5292,medical history,1
+recreational_drug_use,0,0.8,0.79,1,0.2,0.21,,,,0.9043,medical history,1
+pain_cause,At Rest,0.69,0.67,Unknown,0.11,0.02,Movement/Turning,0.07,0.09,0.0,pain,1
+pain_location,Not Indicated,0.65,0.78,Abdominal,0.11,0.07,Incisional,0.09,0.07,0.0,pain,1
+pain_present,No,0.66,0.79,Yes,0.34,0.21,,,,0.0,pain,1
+pain_type,None,0.6,0.63,Constant,0.23,0.11,Intermittent,0.06,0.02,0.0,pain,1
+abdominal_assessment,Soft,0.46,0.42,Soft Distended,0.31,0.27,Ascites,0.09,0.14,0.0,physical assessment,1
+bowel_sounds,Present,0.82,0.79,Hypoactive,0.13,0.13,Absent,0.05,0.08,0.0074,physical assessment,1
+braden_moisture,Rarely Moist,0.5,0.5,Occasionally Moist,0.48,0.46,Moist,0.02,0.03,0.0066,physical assessment,1
+cough_reflex,Intact,0.82,0.8,Impaired,0.15,0.13,Absent,0.03,0.07,0.0002,physical assessment,1
+gag_reflex,Intact,0.76,0.68,Impaired,0.2,0.22,Absent,0.04,0.09,0.0001,physical assessment,1
+oral_cavity,Teeth/Tissue WNL,0.91,0.94,Bleeding Gum,0.03,0.03,Dentures,0.02,0.0,0.0,physical assessment,1
+skin_color,Normal for Race,0.75,0.58,Jaundiced,0.19,0.32,Pale,0.04,0.06,0.0,physical assessment,1
+skin_condition,Dry ,0.99,0.3,Dry,0.01,0.69,Diaphoretic,0.0,0.0,0.0,physical assessment,1
+speech,Normal,0.67,0.55,Intubated/trached,0.27,0.33,Garbled,0.03,0.07,0.0,physical assessment,1

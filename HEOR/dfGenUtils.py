@@ -14,6 +14,7 @@ import pandas as pd
 import re
 from functools import reduce
 from sklearn.impute import SimpleImputer
+import pickle
 
 # make our categorical data unique by patient
 # at the moment, a patient can have multiple observations for categorical data. This function makes it so each patient only has one observation
@@ -37,11 +38,13 @@ def convertCategorical(df):
 def genPatientDF(patient_dir, files, cluster_df, mortality_df, time2event = False):
     dfs = []
     for f in files:
+        #print(f)
         df = pd.read_csv(patient_dir + f)
 
         if re.search("categorical", f):
             df = convertCategorical(df)
 
+        df.columns = map(str.lower, df.columns)
         dfs.append(df)
 
     # collapse into single dataframe
@@ -53,6 +56,7 @@ def genPatientDF(patient_dir, files, cluster_df, mortality_df, time2event = Fals
     
     mort_cols = ['subject_id', 'mortality30'] if time2event == False else ['subject_id', 'mortality30', 'time2event']
     patient_df = pd.merge(patient_df, mortality_df[mort_cols], how = 'left', on = 'subject_id')
+    patient_df.columns = ["_".join(c for c in col.lower().split()) for col in patient_df.columns]
 
     return patient_df
 
@@ -80,13 +84,22 @@ def imputeMissings(df):
     # impute the rest 
     num_imputer = SimpleImputer(strategy = "mean")
     num_df = df.select_dtypes(include='number')
-    num_imputed = pd.DataFrame(num_imputer.fit_transform(num_df))
+    num_imputer = num_imputer.fit(num_df)
+    num_imputed = pd.DataFrame(num_imputer.transform(num_df))
     num_imputed.columns = num_df.columns[~pd.isna(num_imputer.statistics_)] # handles all nan columns 
     
     cat_imputer = SimpleImputer(missing_values = "nan", strategy = "most_frequent") 
     cat_df = df.select_dtypes(include='object').astype(str)
-    cat_imputed = pd.DataFrame(cat_imputer.fit_transform(cat_df))
+    cat_imputer = cat_imputer.fit(cat_df)
+    cat_imputed = pd.DataFrame(cat_imputer.transform(cat_df))
     cat_imputed.columns = cat_df.columns[~pd.isna(cat_imputer.statistics_)]
+    
+    # save imputers
+    with open("../shiny/data/30DayMortality/numImputer.pkl", "wb") as f:
+        pickle.dump(num_imputer, f)
+        
+    with open("../shiny/data/30DayMortality/catImputer.pkl", "wb") as f:
+        pickle.dump(cat_imputer, f)
     
     imputed_df = pd.concat([num_imputed, cat_imputed], axis = 1)
     return imputed_df

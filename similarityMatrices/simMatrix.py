@@ -43,6 +43,9 @@ class simMatrix(object):
         
         
     def export(self, directory):
-        self.similarities.to_csv(directory + self.filename + ".csv", index = False)
+        sim2 = copy.deepcopy(self.similarities)
+        sim2.columns = ["patient_2", "patient_1", "similarity"]
+        sim = pd.concat([self.similarities, sim2], axis = 0).drop_duplicates()
+        sim.to_csv(directory + self.filename + ".csv", index = False)
         
         

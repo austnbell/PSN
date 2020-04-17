@@ -1,0 +1,191 @@
+column,subgroup
+activity,activity
+activity_tolerance,activity
+braden_activity,activity
+braden_mobility,activity
+family_communication,demographics
+marital_status,demographics
+gender,demographics
+race,demographics
+braden_nutrition,diet
+diet_type,diet
+appetite,diet
+special_diet,diet
+heart_rhythm,heart lung
+lll_lung_sounds,heart lung
+lul_lung_sounds,heart lung
+rll_lung_sounds,heart lung
+rul_lung_sounds,heart lung
+respiratory_pattern,heart lung
+respiratory_effort,heart lung
+mental_status,medical history
+recreational_drug_use,medical history
+pain_location,pain
+pain_present,pain
+pain_cause,pain
+pain_type,pain
+abdominal_assessment,physical assessment
+bowel_sounds,physical assessment
+braden_moisture,physical assessment
+oral_cavity,physical assessment
+skin_color,physical assessment
+skin_condition,physical assessment
+cough_reflex,physical assessment
+gag_reflex,physical assessment
+speech,physical assessment
+subject_id,procedures
+age,demographics
+max_heart_rate,heart lung
+min_heart_rate,heart lung
+avg_heart_rate,heart lung
+max_resp_rate,heart lung
+min_resp_rate,heart lung
+avg_resp_rate,heart lung
+anemia,medical history
+angina,medical history
+arrhythmias,medical history
+asthma,medical history
+cad,medical history
+chf,medical history
+copd,medical history
+cva,medical history
+diabetes_-_insulin,medical history
+diabetes_-_oral_agent,medical history
+etoh,medical history
+gi_bleed,medical history
+hemo_or_pd,medical history
+hepatitis,medical history
+hypertension,medical history
+liver_failure,medical history
+mi,medical history
+pvd,medical history
+pacemaker,medical history
+pancreatitis,medical history
+renal_failure,medical history
+seizures,medical history
+smoker,medical history
+abdominal,pain
+back,pain
+both_legs,pain
+chest_pain,pain
+generalized,pain
+headache,pain
+incisional,pain
+jaw,pain
+left_arm,pain
+left_chest,pain
+left_elbow,pain
+left_flank,pain
+left_foot,pain
+left_hip,pain
+left_leg,pain
+left_lower_quad,pain
+left_lower_quadrant,pain
+left_shoulder,pain
+left_upper_quad,pain
+left_upper_quadrant,pain
+mediastinal,pain
+midscapular,pain
+neck,pain
+not_indicated,pain
+perineum,pain
+periumbilical,pain
+right_arm,pain
+right_chest,pain
+right_elbow,pain
+right_flank,pain
+right_foot,pain
+right_hip,pain
+right_leg,pain
+right_lower_quad,pain
+right_lower_quadrant,pain
+right_shoulder,pain
+right_upper_quad,pain
+right_upper_quadrant,pain
+max_wgt,diet
+min_wgt,diet
+wgt_change,diet
+loss_perc,diet
+anti_mitochondrial,antibodies
+anti_nuclear_titer,antibodies
+anti_nuclear,antibodies
+anti_smooth_muscle,antibodies
+min_fibrinogen,blood
+max_fibrinogen,blood
+avg_fibrinogen,blood
+min_platelet,blood
+max_platelet,blood
+avg_platelet,blood
+min_inr,blood
+max_inr,blood
+avg_inr,blood
+min_pt,blood
+max_pt,blood
+avg_pt,blood
+min_ptt,blood
+max_ptt,blood
+avg_ptt,blood
+first_ferritin,blood
+first_iron,blood
+first_iron_bind,blood
+first_transferrin,blood
+last_ferritin,blood
+last_iron,blood
+last_iron_bind,blood
+last_transferrin,blood
+min_albumin,breakdown products
+max_albumin,breakdown products
+avg_albumin,breakdown products
+avg_alb_ascites,breakdown products
+min_bilirubin,breakdown products
+max_bilirubin,breakdown products
+avg_bilirubin,breakdown products
+avg_bili_ascites,breakdown products
+avg_bili_direct,breakdown products
+avg_bili_indirect,breakdown products
+min_creatinine,breakdown products
+max_creatinine,breakdown products
+avg_creatinine,breakdown products
+avg_ck,breakdown products
+avg_ck_iso,breakdown products
+avg_creat_urine,breakdown products
+min_alt,enzymes
+max_alt,enzymes
+avg_alt,enzymes
+min_ast,enzymes
+max_ast,enzymes
+avg_ast,enzymes
+min_alkph,enzymes
+max_alkph,enzymes
+avg_alkph,enzymes
+min_ld,enzymes
+max_ld,enzymes
+avg_ld,enzymes
+min_ld_ascites,enzymes
+max_ld_ascites,enzymes
+avg_ld_ascites,enzymes
+min_lactate,enzymes
+max_lactate,enzymes
+avg_lactate,enzymes
+hep_b_surf_antibody,hepatitis
+hep_b_surf_antigen,hepatitis
+hep_c_antibody,hepatitis
+hep_b_virus_antibody,hepatitis
+avg_phosphate,other lab
+avg_gamma_glut,other lab
+avg_amonia,other lab
+avg_acetamin,other lab
+avg_sodium,other lab
+avg_potassium,other lab
+min_protein,proteins
+max_protein,proteins
+avg_protein,proteins
+avg_tot_protein,proteins
+avg_urine_prot,proteins
+avg_ascite_prot,proteins
+avg_fetoprotein,proteins
+label,procedures
+value,procedures
+frequency,procedures
+mortality30,mortality
+time2event,mortality

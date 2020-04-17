@@ -1,0 +1,373 @@
+,variable,main_summary_stats,other_summary_stats,p_value,data_type,cluster,data_subgroup
+0,age,"{'mean': 59.24, 'std': 27.8}","{'mean': 59.18, 'std': 26.39}",0.9518,numeric,0,demographics
+1,max_heart_rate,"{'mean': 120.48, 'std': 24.82}","{'mean': 7126.65, 'std': 264717.59}",0.3156,numeric,0,heart lung
+2,min_heart_rate,"{'mean': 60.24, 'std': 15.75}","{'mean': 63.16, 'std': 15.98}",0.0,numeric,0,heart lung
+3,avg_heart_rate,"{'mean': 86.17, 'std': 13.16}","{'mean': 96.82, 'std': 380.42}",0.2887,numeric,0,heart lung
+4,max_resp_rate,"{'mean': 34.33, 'std': 13.0}","{'mean': 38.77, 'std': 125.71}",0.1821,numeric,0,heart lung
+5,min_resp_rate,"{'mean': 9.4, 'std': 3.76}","{'mean': 9.57, 'std': 3.49}",0.2048,numeric,0,heart lung
+6,avg_resp_rate,"{'mean': 19.14, 'std': 3.71}","{'mean': 18.86, 'std': 3.69}",0.0407,numeric,0,heart lung
+7,anemia,"{'mean': 0.24, 'std': 0.43}","{'mean': 0.14, 'std': 0.34}",0.0001,numeric,0,medical history
+8,angina,"{'mean': 0.04, 'std': 0.2}","{'mean': 0.02, 'std': 0.15}",0.1133,numeric,0,medical history
+9,arrhythmias,"{'mean': 0.17, 'std': 0.37}","{'mean': 0.09, 'std': 0.29}",0.0007,numeric,0,medical history
+10,asthma,"{'mean': 0.11, 'std': 0.31}","{'mean': 0.08, 'std': 0.28}",0.2051,numeric,0,medical history
+11,cad,"{'mean': 0.22, 'std': 0.41}","{'mean': 0.13, 'std': 0.34}",0.0007,numeric,0,medical history
+12,chf,"{'mean': 0.23, 'std': 0.42}","{'mean': 0.09, 'std': 0.29}",0.0,numeric,0,medical history
+13,copd,"{'mean': 0.2, 'std': 0.4}","{'mean': 0.1, 'std': 0.3}",0.0,numeric,0,medical history
+14,cva,"{'mean': 0.06, 'std': 0.24}","{'mean': 0.04, 'std': 0.19}",0.1067,numeric,0,medical history
+15,diabetes_-_insulin,"{'mean': 0.3, 'std': 0.46}","{'mean': 0.19, 'std': 0.39}",0.0001,numeric,0,medical history
+16,diabetes_-_oral_agent,"{'mean': 0.15, 'std': 0.36}","{'mean': 0.13, 'std': 0.34}",0.4612,numeric,0,medical history
+17,etoh,"{'mean': 0.4, 'std': 0.49}","{'mean': 0.39, 'std': 0.49}",0.8165,numeric,0,medical history
+18,gi_bleed,"{'mean': 0.24, 'std': 0.42}","{'mean': 0.2, 'std': 0.4}",0.2002,numeric,0,medical history
+19,hemo_or_pd,"{'mean': 0.08, 'std': 0.28}","{'mean': 0.03, 'std': 0.17}",0.0002,numeric,0,medical history
+20,hepatitis,"{'mean': 0.42, 'std': 0.5}","{'mean': 0.41, 'std': 0.49}",0.7016,numeric,0,medical history
+21,hypertension,"{'mean': 0.56, 'std': 0.5}","{'mean': 0.5, 'std': 0.5}",0.0796,numeric,0,medical history
+22,liver_failure,"{'mean': 0.41, 'std': 0.49}","{'mean': 0.32, 'std': 0.47}",0.0071,numeric,0,medical history
+23,mi,"{'mean': 0.11, 'std': 0.31}","{'mean': 0.07, 'std': 0.25}",0.0318,numeric,0,medical history
+24,pvd,"{'mean': 0.09, 'std': 0.29}","{'mean': 0.04, 'std': 0.19}",0.0004,numeric,0,medical history
+25,pacemaker,"{'mean': 0.05, 'std': 0.22}","{'mean': 0.03, 'std': 0.17}",0.1524,numeric,0,medical history
+26,pancreatitis,"{'mean': 0.05, 'std': 0.21}","{'mean': 0.05, 'std': 0.21}",0.9261,numeric,0,medical history
+27,renal_failure,"{'mean': 0.26, 'std': 0.44}","{'mean': 0.12, 'std': 0.33}",0.0,numeric,0,medical history
+28,seizures,"{'mean': 0.09, 'std': 0.28}","{'mean': 0.07, 'std': 0.25}",0.2563,numeric,0,medical history
+29,smoker,"{'mean': 0.24, 'std': 0.42}","{'mean': 0.18, 'std': 0.38}",0.0489,numeric,0,medical history
+30,abdominal,"{'mean': 2.24, 'std': 2.71}","{'mean': 1.86, 'std': 2.7}",0.001,numeric,0,pain
+31,back,"{'mean': 1.55, 'std': 2.53}","{'mean': 1.27, 'std': 2.47}",0.0102,numeric,0,pain
+32,both_legs,"{'mean': 0.33, 'std': 1.37}","{'mean': 0.23, 'std': 1.15}",0.0395,numeric,0,pain
+33,chest_pain,"{'mean': 0.43, 'std': 1.54}","{'mean': 0.3, 'std': 1.32}",0.0223,numeric,0,pain
+34,generalized,"{'mean': 0.17, 'std': 0.96}","{'mean': 0.69, 'std': 1.83}",0.0,numeric,0,pain
+35,headache,"{'mean': 0.71, 'std': 1.8}","{'mean': 0.85, 'std': 2.02}",0.096,numeric,0,pain
+36,incisional,"{'mean': 1.7, 'std': 2.49}","{'mean': 1.43, 'std': 2.47}",0.0114,numeric,0,pain
+37,jaw,"{'mean': 0.03, 'std': 0.38}","{'mean': 0.04, 'std': 0.51}",0.5541,numeric,0,pain
+38,left_arm,"{'mean': 0.14, 'std': 0.86}","{'mean': 0.14, 'std': 0.93}",0.9171,numeric,0,pain
+39,left_chest,"{'mean': 0.24, 'std': 1.22}","{'mean': 0.14, 'std': 0.91}",0.0219,numeric,0,pain
+40,left_elbow,"{'mean': 0.0, 'std': 0.0}","{'mean': 0.0, 'std': 0.16}",0.3886,numeric,0,pain
+41,left_flank,"{'mean': 0.05, 'std': 0.5}","{'mean': 0.06, 'std': 0.63}",0.6529,numeric,0,pain
+42,left_foot,"{'mean': 0.07, 'std': 0.68}","{'mean': 0.02, 'std': 0.31}",0.0173,numeric,0,pain
+43,left_hip,"{'mean': 0.02, 'std': 0.41}","{'mean': 0.11, 'std': 0.78}",0.002,numeric,0,pain
+44,left_leg,"{'mean': 0.21, 'std': 1.1}","{'mean': 0.29, 'std': 1.34}",0.1332,numeric,0,pain
+45,left_lower_quad,"{'mean': 0.06, 'std': 0.6}","{'mean': 0.0, 'std': 0.0}",0.0007,numeric,0,pain
+46,left_lower_quadrant,"{'mean': 0.03, 'std': 0.42}","{'mean': 0.09, 'std': 0.8}",0.0166,numeric,0,pain
+47,left_shoulder,"{'mean': 0.18, 'std': 1.04}","{'mean': 0.14, 'std': 0.87}",0.345,numeric,0,pain
+48,left_upper_quad,"{'mean': 0.1, 'std': 0.77}","{'mean': 0.0, 'std': 0.13}",0.0,numeric,0,pain
+49,left_upper_quadrant,"{'mean': 0.05, 'std': 0.54}","{'mean': 0.08, 'std': 0.7}",0.2295,numeric,0,pain
+50,mediastinal,"{'mean': 0.05, 'std': 0.57}","{'mean': 0.07, 'std': 0.66}",0.3379,numeric,0,pain
+51,midscapular,"{'mean': 0.02, 'std': 0.3}","{'mean': 0.02, 'std': 0.35}",0.8459,numeric,0,pain
+52,neck,"{'mean': 0.4, 'std': 1.48}","{'mean': 0.45, 'std': 1.56}",0.462,numeric,0,pain
+53,not_indicated,"{'mean': 0.3, 'std': 1.1}","{'mean': 0.36, 'std': 1.14}",0.2332,numeric,0,pain
+54,perineum,"{'mean': 0.04, 'std': 0.48}","{'mean': 0.14, 'std': 0.92}",0.0026,numeric,0,pain
+55,periumbilical,"{'mean': 0.0, 'std': 0.0}","{'mean': 0.01, 'std': 0.24}",0.1603,numeric,0,pain
+56,right_arm,"{'mean': 0.22, 'std': 1.11}","{'mean': 0.18, 'std': 1.08}",0.4883,numeric,0,pain
+57,right_chest,"{'mean': 0.22, 'std': 1.12}","{'mean': 0.25, 'std': 1.23}",0.6138,numeric,0,pain
+58,right_elbow,"{'mean': 0.0, 'std': 0.13}","{'mean': 0.02, 'std': 0.34}",0.292,numeric,0,pain
+59,right_flank,"{'mean': 0.06, 'std': 0.58}","{'mean': 0.11, 'std': 0.83}",0.1013,numeric,0,pain
+60,right_foot,"{'mean': 0.14, 'std': 0.91}","{'mean': 0.13, 'std': 0.9}",0.732,numeric,0,pain
+61,right_hip,"{'mean': 0.03, 'std': 0.47}","{'mean': 0.11, 'std': 0.83}",0.0075,numeric,0,pain
+62,right_leg,"{'mean': 0.35, 'std': 1.4}","{'mean': 0.4, 'std': 1.53}",0.4469,numeric,0,pain
+63,right_lower_quad,"{'mean': 0.08, 'std': 0.63}","{'mean': 0.01, 'std': 0.29}",0.0023,numeric,0,pain
+64,right_lower_quadrant,"{'mean': 0.04, 'std': 0.47}","{'mean': 0.2, 'std': 1.11}",0.0,numeric,0,pain
+65,right_shoulder,"{'mean': 0.19, 'std': 1.02}","{'mean': 0.31, 'std': 1.43}",0.02,numeric,0,pain
+66,right_upper_quad,"{'mean': 0.23, 'std': 1.21}","{'mean': 0.01, 'std': 0.2}",0.0,numeric,0,pain
+67,right_upper_quadrant,"{'mean': 0.04, 'std': 0.46}","{'mean': 0.35, 'std': 1.46}",0.0,numeric,0,pain
+68,max_wgt,"{'mean': 90.43, 'std': 27.37}","{'mean': 93.55, 'std': 29.88}",0.0123,numeric,0,diet
+69,min_wgt,"{'mean': 79.25, 'std': 22.99}","{'mean': 84.28, 'std': 24.22}",0.0,numeric,0,diet
+70,wgt_change,"{'mean': 11.18, 'std': 19.47}","{'mean': 9.27, 'std': 21.65}",0.0326,numeric,0,diet
+71,loss_perc,"{'mean': 0.11, 'std': 0.15}","{'mean': 0.09, 'std': 0.13}",0.0002,numeric,0,diet
+72,anti_mitochondrial,"{'mean': -0.56, 'std': 0.52}","{'mean': -0.42, 'std': 0.5}",0.0377,numeric,0,antibodies
+73,anti_nuclear_titer,"{'mean': -0.25, 'std': 1.58}","{'mean': -0.3, 'std': 1.41}",0.8276,numeric,0,antibodies
+74,anti_nuclear,"{'mean': 0.14, 'std': 0.54}","{'mean': 0.17, 'std': 0.53}",0.7601,numeric,0,antibodies
+75,anti_smooth_muscle,"{'mean': -0.24, 'std': 1.13}","{'mean': -0.1, 'std': 1.15}",0.3401,numeric,0,antibodies
+76,min_fibrinogen,"{'mean': 202.47, 'std': 134.04}","{'mean': 210.14, 'std': 156.63}",0.292,numeric,0,blood
+77,max_fibrinogen,"{'mean': 333.7, 'std': 180.15}","{'mean': 319.64, 'std': 173.97}",0.1152,numeric,0,blood
+78,avg_fibrinogen,"{'mean': 259.86, 'std': 131.83}","{'mean': 257.22, 'std': 150.86}",0.7101,numeric,0,blood
+79,min_platelet,"{'mean': 95.62, 'std': 78.57}","{'mean': 107.03, 'std': 84.83}",0.0002,numeric,0,blood
+80,max_platelet,"{'mean': 264.04, 'std': 180.98}","{'mean': 267.06, 'std': 188.72}",0.6618,numeric,0,blood
+81,avg_platelet,"{'mean': 159.0, 'std': 103.85}","{'mean': 168.8, 'std': 112.84}",0.0156,numeric,0,blood
+82,min_inr,"{'mean': 1.27, 'std': 0.39}","{'mean': 1.29, 'std': 0.38}",0.1415,numeric,0,blood
+83,max_inr,"{'mean': 3.3, 'std': 6.03}","{'mean': 2.46, 'std': 2.16}",0.0,numeric,0,blood
+84,avg_inr,"{'mean': 1.72, 'std': 0.91}","{'mean': 1.64, 'std': 0.66}",0.0126,numeric,0,blood
+85,min_pt,"{'mean': 14.07, 'std': 4.49}","{'mean': 14.47, 'std': 3.57}",0.0085,numeric,0,blood
+86,max_pt,"{'mean': 26.18, 'std': 53.53}","{'mean': 24.87, 'std': 17.61}",0.384,numeric,0,blood
+87,avg_pt,"{'mean': 16.99, 'std': 5.82}","{'mean': 17.76, 'std': 5.81}",0.0004,numeric,0,blood
+88,min_ptt,"{'mean': 29.61, 'std': 7.13}","{'mean': 29.97, 'std': 8.51}",0.2215,numeric,0,blood
+89,max_ptt,"{'mean': 75.06, 'std': 46.21}","{'mean': 65.68, 'std': 41.61}",0.0,numeric,0,blood
+90,avg_ptt,"{'mean': 41.14, 'std': 13.26}","{'mean': 40.18, 'std': 13.92}",0.0634,numeric,0,blood
+91,first_ferritin,"{'mean': 473.28, 'std': 455.86}","{'mean': 1042.19, 'std': 2737.92}",0.0,numeric,0,blood
+92,first_iron,"{'mean': 69.25, 'std': 55.28}","{'mean': 72.11, 'std': 59.57}",0.4291,numeric,0,blood
+93,first_iron_bind,"{'mean': 208.31, 'std': 82.87}","{'mean': 201.97, 'std': 91.72}",0.2533,numeric,0,blood
+94,first_transferrin,"{'mean': 160.23, 'std': 63.8}","{'mean': 155.34, 'std': 70.57}",0.2526,numeric,0,blood
+95,last_ferritin,"{'mean': 524.84, 'std': 634.04}","{'mean': 978.28, 'std': 2282.61}",0.0001,numeric,0,blood
+96,last_iron,"{'mean': 63.94, 'std': 51.64}","{'mean': 68.5, 'std': 57.73}",0.1937,numeric,0,blood
+97,last_iron_bind,"{'mean': 198.7, 'std': 83.03}","{'mean': 199.29, 'std': 91.5}",0.9158,numeric,0,blood
+98,last_transferrin,"{'mean': 152.8, 'std': 63.86}","{'mean': 153.29, 'std': 70.4}",0.9108,numeric,0,blood
+99,min_albumin,"{'mean': 2.52, 'std': 0.67}","{'mean': 2.74, 'std': 0.69}",0.0,numeric,0,breakdown products
+100,max_albumin,"{'mean': 3.36, 'std': 0.67}","{'mean': 3.55, 'std': 0.73}",0.0,numeric,0,breakdown products
+101,avg_albumin,"{'mean': 2.91, 'std': 0.57}","{'mean': 3.11, 'std': 0.6}",0.0,numeric,0,breakdown products
+102,avg_alb_ascites,"{'mean': 1.38, 'std': 0.48}","{'mean': 1.47, 'std': 0.45}",0.1225,numeric,0,breakdown products
+103,min_bilirubin,"{'mean': 2.98, 'std': 6.15}","{'mean': 2.54, 'std': 5.14}",0.0427,numeric,0,breakdown products
+104,max_bilirubin,"{'mean': 8.68, 'std': 12.24}","{'mean': 7.71, 'std': 11.58}",0.0353,numeric,0,breakdown products
+105,avg_bilirubin,"{'mean': 5.26, 'std': 8.17}","{'mean': 4.63, 'std': 7.24}",0.0347,numeric,0,breakdown products
+106,avg_bili_ascites,"{'mean': 6.49, 'std': 10.55}","{'mean': 7.35, 'std': 14.25}",0.5958,numeric,0,breakdown products
+107,avg_bili_direct,"{'mean': 5.14, 'std': 6.35}","{'mean': 5.01, 'std': 6.14}",0.7275,numeric,0,breakdown products
+108,avg_bili_indirect,"{'mean': 3.08, 'std': 3.23}","{'mean': 3.05, 'std': 3.36}",0.8659,numeric,0,breakdown products
+109,min_creatinine,"{'mean': 0.98, 'std': 0.98}","{'mean': 0.95, 'std': 0.91}",0.3519,numeric,0,breakdown products
+110,max_creatinine,"{'mean': 2.82, 'std': 4.43}","{'mean': 2.4, 'std': 2.26}",0.0018,numeric,0,breakdown products
+111,avg_creatinine,"{'mean': 1.64, 'std': 1.51}","{'mean': 1.49, 'std': 1.34}",0.0075,numeric,0,breakdown products
+112,avg_ck,"{'mean': 545.19, 'std': 2522.51}","{'mean': 444.46, 'std': 1778.09}",0.337,numeric,0,breakdown products
+113,avg_ck_iso,"{'mean': 10.06, 'std': 18.9}","{'mean': 8.6, 'std': 17.28}",0.1453,numeric,0,breakdown products
+114,avg_creat_urine,"{'mean': 99.39, 'std': 57.41}","{'mean': 107.39, 'std': 63.14}",0.0104,numeric,0,breakdown products
+115,min_alt,"{'mean': 46.36, 'std': 183.94}","{'mean': 47.42, 'std': 145.71}",0.8669,numeric,0,enzymes
+116,max_alt,"{'mean': 342.56, 'std': 804.94}","{'mean': 287.37, 'std': 778.42}",0.069,numeric,0,enzymes
+117,avg_alt,"{'mean': 129.44, 'std': 302.23}","{'mean': 121.4, 'std': 306.25}",0.4903,numeric,0,enzymes
+118,min_ast,"{'mean': 68.52, 'std': 327.02}","{'mean': 80.37, 'std': 419.65}",0.4107,numeric,0,enzymes
+119,max_ast,"{'mean': 671.81, 'std': 1699.69}","{'mean': 554.09, 'std': 1582.27}",0.0615,numeric,0,enzymes
+120,avg_ast,"{'mean': 197.65, 'std': 512.98}","{'mean': 192.95, 'std': 655.83}",0.8347,numeric,0,enzymes
+121,min_alkph,"{'mean': 96.61, 'std': 86.78}","{'mean': 87.9, 'std': 74.29}",0.0051,numeric,0,enzymes
+122,max_alkph,"{'mean': 240.53, 'std': 312.97}","{'mean': 197.58, 'std': 214.59}",0.0,numeric,0,enzymes
+123,avg_alkph,"{'mean': 147.9, 'std': 141.53}","{'mean': 129.51, 'std': 111.77}",0.0002,numeric,0,enzymes
+124,min_ld,"{'mean': 275.85, 'std': 527.75}","{'mean': 279.35, 'std': 489.26}",0.8676,numeric,0,enzymes
+125,max_ld,"{'mean': 732.74, 'std': 1691.06}","{'mean': 634.89, 'std': 1219.74}",0.1081,numeric,0,enzymes
+126,avg_ld,"{'mean': 407.02, 'std': 673.73}","{'mean': 398.8, 'std': 649.52}",0.7636,numeric,0,enzymes
+127,min_ld_ascites,"{'mean': 128.42, 'std': 374.21}","{'mean': 197.01, 'std': 788.7}",0.2106,numeric,0,enzymes
+128,max_ld_ascites,"{'mean': 236.68, 'std': 825.97}","{'mean': 323.83, 'std': 1504.37}",0.4199,numeric,0,enzymes
+129,avg_ld_ascites,"{'mean': 174.37, 'std': 522.19}","{'mean': 259.13, 'std': 1034.58}",0.2445,numeric,0,enzymes
+130,min_lactate,"{'mean': 1.74, 'std': 1.69}","{'mean': 1.57, 'std': 1.43}",0.0094,numeric,0,enzymes
+131,max_lactate,"{'mean': 5.4, 'std': 4.55}","{'mean': 4.29, 'std': 3.37}",0.0,numeric,0,enzymes
+132,avg_lactate,"{'mean': 3.13, 'std': 2.42}","{'mean': 2.66, 'std': 1.96}",0.0,numeric,0,enzymes
+133,hep_b_surf_antibody,"{'mean': 1.19, 'std': 2.01}","{'mean': 1.24, 'std': 1.95}",0.7911,numeric,0,hepatitis
+134,hep_b_surf_antigen,"{'mean': -0.14, 'std': 0.35}","{'mean': -0.19, 'std': 0.39}",0.2077,numeric,0,hepatitis
+135,hep_c_antibody,"{'mean': 0.28, 'std': 0.99}","{'mean': 0.41, 'std': 1.03}",0.1571,numeric,0,hepatitis
+136,hep_b_virus_antibody,"{'mean': 0.26, 'std': 1.36}","{'mean': 0.12, 'std': 1.23}",0.258,numeric,0,hepatitis
+137,avg_phosphate,"{'mean': 3.7, 'std': 1.13}","{'mean': 3.54, 'std': 1.15}",0.0001,numeric,0,other lab
+138,avg_gamma_glut,"{'mean': 338.28, 'std': 443.82}","{'mean': 404.26, 'std': 694.72}",0.4162,numeric,0,other lab
+139,avg_amonia,"{'mean': 69.26, 'std': 50.2}","{'mean': 63.63, 'std': 55.24}",0.1384,numeric,0,other lab
+140,avg_acetamin,"{'mean': 14.05, 'std': 10.73}","{'mean': 15.09, 'std': 19.8}",0.7227,numeric,0,other lab
+141,avg_sodium,"{'mean': 137.64, 'std': 4.18}","{'mean': 137.74, 'std': 4.3}",0.5002,numeric,0,other lab
+142,avg_potassium,"{'mean': 4.11, 'std': 0.44}","{'mean': 4.08, 'std': 0.44}",0.0653,numeric,0,other lab
+143,min_protein,"{'mean': 58.92, 'std': 87.78}","{'mean': 47.58, 'std': 60.45}",0.005,numeric,0,proteins
+144,max_protein,"{'mean': 121.31, 'std': 158.18}","{'mean': 93.17, 'std': 116.46}",0.0002,numeric,0,proteins
+145,avg_protein,"{'mean': 84.48, 'std': 104.89}","{'mean': 65.09, 'std': 72.81}",0.0001,numeric,0,proteins
+146,avg_tot_protein,"{'mean': 5.97, 'std': 1.07}","{'mean': 5.77, 'std': 1.09}",0.0417,numeric,0,proteins
+147,avg_urine_prot,"{'mean': 127.42, 'std': 282.84}","{'mean': 133.3, 'std': 262.81}",0.8326,numeric,0,proteins
+148,avg_ascite_prot,"{'mean': 1.35, 'std': 0.97}","{'mean': 3.25, 'std': 24.6}",0.1707,numeric,0,proteins
+149,avg_fetoprotein,"{'mean': 4005.21, 'std': 64628.62}","{'mean': 2762.37, 'std': 30239.78}",0.8002,numeric,0,proteins
+150,mortality30,"{'mean': 0.32, 'std': 0.47}","{'mean': 0.23, 'std': 0.42}",0.0,numeric,0,mortality
+151,time2event,"{'mean': 310.58, 'std': 590.66}","{'mean': 106.24, 'std': 225.9}",0.0,numeric,0,mortality
+152,activity,"{'Bedrest': 0.99, 'Commode': 0.0, 'Chair': 0.0}","{'Bedrest': 0.98, 'Commode': 0.01, 'Chair': 0.01, 'Ambulate': 0.0, 'Dangle': 0.0}",0.3535,categorical,0,activity
+153,activity_tolerance,"{'Tolerated Well': 0.92, 'Good': 0.05, 'Fair': 0.02}","{'Tolerated Well': 0.8, 'Good': 0.17, 'Fair': 0.02, 'Poor': 0.0}",0.0,categorical,0,activity
+154,braden_activity,"{'Bedfast': 0.92, 'Chairfast': 0.04, 'Walks Occasionally': 0.03}","{'Bedfast': 0.89, 'Walks Occasionally': 0.05, 'Chairfast': 0.05, 'Walks Frequently': 0.01}",0.1981,categorical,0,activity
+155,braden_mobility,"{'Slight Limitations': 0.48, 'Very Limited': 0.38, 'Completely Immobile': 0.08}","{'Slight Limitations': 0.56, 'Very Limited': 0.32, 'No Limitations': 0.07, 'Completely Immobile': 0.05}",0.0,categorical,0,activity
+156,family_communication,"{'Family Visited': 0.66, 'Family Called': 0.27, 'Family Talked to RN': 0.04}","{'Family Visited': 0.5, 'Family Talked to RN': 0.25, 'Family Called': 0.18, 'Family Talked to MD': 0.05, 'Social Service Involved': 0.02, 'Family Conference': 0.0}",0.0,categorical,0,demographics
+157,marital_status,"{'Married': 0.46, 'Single': 0.35, 'Divorced': 0.08}","{'Married': 0.44, 'Single': 0.4, 'Divored': 0.1, 'Widowed': 0.06, 'Divorced': 0.0}",0.0,categorical,0,demographics
+158,race,"{'White': 0.72, 'Black / African': 0.16, 'Hispanic or Latino': 0.05}","{'White': 0.68, 'Black / African': 0.11, 'Hispanic or Latino': 0.06, 'Unable to Obtain': 0.06, 'Unknown / Not Specified': 0.05, 'Asian': 0.03, 'Patient Declined to Answer': 0.01, 'Multiple Race/Ethnicity': 0.0, 'American Indian / Alaska Native': 0.0}",0.0032,categorical,0,demographics
+159,gender,"{'M': 0.67, 'F': 0.33}","{'M': 0.66, 'F': 0.34}",0.7501,categorical,0,demographics
+160,appetite,"{'Good': 0.36, 'Poor': 0.29, 'Fair': 0.29}","{'Good': 0.39, 'Fair': 0.3, 'Poor': 0.23, 'Not assessed': 0.05, 'Deferred': 0.03}",0.5102,categorical,0,diet
+161,braden_nutrition,"{'Probably Inadequate': 0.74, 'Adequate': 0.19, 'Very Poor': 0.07}","{'Probably Inadequate': 0.68, 'Adequate': 0.24, 'Very Poor': 0.07, 'Excellent': 0.01}",0.0003,categorical,0,diet
+162,diet_type,"{'NPO': 0.64, 'Tube Feeding': 0.11, 'House': 0.06}","{'NPO': 0.65, 'House': 0.09, 'Tube Feeding': 0.09, 'Clear Liquid': 0.05, '2 GM Sodium Heart Healthy': 0.04, 'Diabetic': 0.04, 'NAS/Low Cholesterol': 0.02, 'Sips': 0.01, 'Renal': 0.01, 'TPN': 0.0, 'Full Liquid': 0.0, 'Nectar Thick': 0.0, 'Bariatric': 0.0, 'Soft Solid': 0.0, 'PPN': 0.0, 'Pureed': 0.0, 'Low Residue': 0.0}",0.0,categorical,0,diet
+163,special_diet,"{'0': 0.57, '1': 0.43}","{'0': 0.66, '1': 0.34}",0.0392,categorical,0,diet
+164,heart_rhythm,"{'Normal Sinus': 0.69, 'ST (Sinus Tachycardia) ': 0.13, 'SR (Sinus Rhythm)': 0.07}","{'SR (Sinus Rhythm)': 0.7, 'ST (Sinus Tachycardia) ': 0.16, 'AF (Atrial Fibrillation)': 0.05, 'Normal Sinus': 0.04, 'SB (Sinus Bradycardia)': 0.03, 'V Paced': 0.01, '1st Deg AV Block': 0.01, 'AV Paced': 0.0, 'Atrial Flutter': 0.0, 'LBBB (Left Bundle Branch Block) ': 0.0, 'RBBB (Right Bundle Branch Block) ': 0.0, 'SA (Sinus Arrhythmia)': 0.0, 'JR (Junctional Rhythm)': 0.0, '3rd AV (Complete Heart Block) ': 0.0}",0.0,categorical,0,heart lung
+165,lll_lung_sounds,"{'Diminished': 0.47, 'Clear': 0.36, 'Coarse': 0.12}","{'Diminished': 0.59, 'Clear': 0.33, 'Rhonchi': 0.04, 'Crackles': 0.03, 'Exp Wheeze': 0.01, 'Coarse': 0.0}",0.0,categorical,0,heart lung
+166,lul_lung_sounds,"{'Clear': 0.79, 'Coarse': 0.17, 'Diminished': 0.01}","{'Clear': 0.88, 'Rhonchi': 0.08, 'Diminished': 0.02, 'Exp Wheeze': 0.01, 'Coarse': 0.0, 'Crackles': 0.0, 'Ins/Exp Wheeze': 0.0, 'Insp Wheeze': 0.0}",0.0,categorical,0,heart lung
+167,rll_lung_sounds,"{'Diminished': 0.46, 'Clear': 0.36, 'Coarse': 0.12}","{'Diminished': 0.59, 'Clear': 0.32, 'Rhonchi': 0.04, 'Crackles': 0.03, 'Exp Wheeze': 0.01, 'Coarse': 0.0}",0.0,categorical,0,heart lung
+168,rul_lung_sounds,"{'Clear': 0.79, 'Coarse': 0.17, 'Rhonchi': 0.01}","{'Clear': 0.89, 'Rhonchi': 0.08, 'Diminished': 0.02, 'Exp Wheeze': 0.01, 'Coarse': 0.0, 'Ins/Exp Wheeze': 0.0, 'Crackles': 0.0, 'Insp Wheeze': 0.0}",0.0,categorical,0,heart lung
+169,respiratory_effort,"{'Normal': 0.94, 'Shallow': 0.03, 'Dyspneic': 0.01}","{'Normal': 0.97, 'Shallow': 0.01, 'Labored': 0.01, 'Dyspneic': 0.0, 'Agonal': 0.0}",0.0047,categorical,0,heart lung
+170,respiratory_pattern,"{'Regular': 0.98, 'Tachypneic': 0.02, 'Irregular': 0.0}","{'Regular': 0.97, 'Tachypneic': 0.02, 'Irregular': 0.0, 'Discoordinate': 0.0}",0.6708,categorical,0,heart lung
+171,mental_status,"{'Forgets limitations': 0.6, 'Oriented to own ability': 0.4}","{'Forgets limitations': 0.54, 'Oriented to own ability': 0.46}",0.1098,categorical,0,medical history
+172,recreational_drug_use,"{'0': 0.78, '1': 0.22}","{'0': 0.81, '1': 0.19}",0.5645,categorical,0,medical history
+173,pain_cause,"{'At Rest': 0.66, 'Movement/Turning': 0.09, 'Activity': 0.06}","{'At Rest': 0.69, 'Unknown': 0.11, 'Movement/Turning': 0.07, 'Activity': 0.05, 'Cough/Deep Breath': 0.03, 'Incisional': 0.02, 'Situational': 0.01, 'Injury': 0.01, 'Procedural': 0.01, 'Wound': 0.0}",0.0,categorical,0,pain
+174,pain_location,"{'Not Indicated': 0.79, 'Incisional': 0.07, 'Abdominal': 0.07}","{'Not Indicated': 0.64, 'Abdominal': 0.11, 'Incisional': 0.09, 'Back': 0.04, 'Headache': 0.03, 'Generalized': 0.01, 'Chest Pain': 0.01, 'Left Hip': 0.01, 'Left Arm': 0.01, 'Left Leg': 0.01, 'Right Upper Quadrant': 0.01, 'Right Shoulder': 0.0, 'Neck': 0.0, 'Left Chest': 0.0, 'Right Leg': 0.0, 'Right Chest': 0.0, 'Both Legs': 0.0, 'Right Arm': 0.0, 'Mediastinal': 0.0, 'Right Foot': 0.0}",0.0,categorical,0,pain
+175,pain_present,"{'No': 0.8, 'Yes': 0.2}","{'No': 0.65, 'Yes': 0.35}",0.0,categorical,0,pain
+176,pain_type,"{'None': 0.65, 'Aching': 0.17, 'Constant': 0.1}","{'None': 0.59, 'Constant': 0.24, 'Intermittent': 0.07, 'Aching': 0.04, 'Sharp': 0.02, 'Dull': 0.01, 'Throbbing': 0.01, 'Cramping': 0.01, 'Burning': 0.0, 'Stabbing': 0.0, 'Shooting': 0.0, 'Gassy': 0.0}",0.0,categorical,0,pain
+177,abdominal_assessment,"{'Soft': 0.42, 'Soft Distended': 0.27, 'Ascites': 0.14}","{'Soft': 0.47, 'Soft Distended': 0.3, 'Ascites': 0.09, 'Obese': 0.06, 'Firm Distended': 0.06, 'Tender': 0.01, 'Open': 0.01, 'Firm': 0.0, 'Non-Distended': 0.0}",0.0001,categorical,0,physical assessment
+178,bowel_sounds,"{'Present': 0.79, 'Hypoactive': 0.13, 'Absent': 0.08}","{'Present': 0.82, 'Hypoactive': 0.13, 'Absent': 0.04, 'Hyperactive': 0.0}",0.0009,categorical,0,physical assessment
+179,braden_moisture,"{'Rarely Moist': 0.49, 'Occasionally Moist': 0.47, 'Moist': 0.03}","{'Rarely Moist': 0.51, 'Occasionally Moist': 0.47, 'Moist': 0.01, 'Consistently Moist': 0.0}",0.0013,categorical,0,physical assessment
+180,cough_reflex,"{'Intact': 0.78, 'Impaired': 0.15, 'Absent': 0.08}","{'Intact': 0.84, 'Impaired': 0.14, 'Absent': 0.03}",0.0,categorical,0,physical assessment
+181,gag_reflex,"{'Intact': 0.67, 'Impaired': 0.23, 'Absent': 0.09}","{'Intact': 0.77, 'Impaired': 0.19, 'Absent': 0.04}",0.0,categorical,0,physical assessment
+182,oral_cavity,"{'Teeth/Tissue WNL': 0.93, 'Bleeding Gum': 0.03, 'Thrush': 0.01}","{'Teeth/Tissue WNL': 0.92, 'Bleeding Gum': 0.03, 'Dentures': 0.02, 'Oral Ulcers': 0.02, 'Loose Teeth': 0.01, 'Thrush': 0.01}",0.0018,categorical,0,physical assessment
+183,skin_color,"{'Normal for Race': 0.58, 'Jaundiced': 0.31, 'Pale': 0.07}","{'Normal for Race': 0.76, 'Jaundiced': 0.19, 'Pale': 0.04, 'Flushed': 0.01, 'Mottled': 0.0, 'Ashen': 0.0, 'Bronze': 0.0, 'Dusky': 0.0}",0.0,categorical,0,physical assessment
+184,skin_condition,"{'Dry': 0.64, 'Dry ': 0.35, 'Clammy': 0.01}","{'Dry ': 0.99, 'Dry': 0.01, 'Diaphoretic': 0.0, 'Clammy': 0.0}",0.0,categorical,0,physical assessment
+185,speech,"{'Normal': 0.55, 'Intubated/trached': 0.33, 'Garbled': 0.08}","{'Normal': 0.68, 'Intubated/trached': 0.26, 'Garbled': 0.03, 'Dysarthric': 0.01, 'None': 0.01, 'Slurred': 0.01, 'Aphasic': 0.0}",0.0,categorical,0,physical assessment
+0,age,"{'mean': 59.18, 'std': 26.39}","{'mean': 59.24, 'std': 27.8}",0.9518,numeric,1,demographics
+1,max_heart_rate,"{'mean': 7126.65, 'std': 264717.59}","{'mean': 120.48, 'std': 24.82}",0.3156,numeric,1,heart lung
+2,min_heart_rate,"{'mean': 63.16, 'std': 15.98}","{'mean': 60.24, 'std': 15.75}",0.0,numeric,1,heart lung
+3,avg_heart_rate,"{'mean': 96.82, 'std': 380.42}","{'mean': 86.17, 'std': 13.16}",0.2887,numeric,1,heart lung
+4,max_resp_rate,"{'mean': 38.77, 'std': 125.71}","{'mean': 34.33, 'std': 13.0}",0.1821,numeric,1,heart lung
+5,min_resp_rate,"{'mean': 9.57, 'std': 3.49}","{'mean': 9.4, 'std': 3.76}",0.2048,numeric,1,heart lung
+6,avg_resp_rate,"{'mean': 18.86, 'std': 3.69}","{'mean': 19.14, 'std': 3.71}",0.0407,numeric,1,heart lung
+7,anemia,"{'mean': 0.14, 'std': 0.34}","{'mean': 0.24, 'std': 0.43}",0.0001,numeric,1,medical history
+8,angina,"{'mean': 0.02, 'std': 0.15}","{'mean': 0.04, 'std': 0.2}",0.1133,numeric,1,medical history
+9,arrhythmias,"{'mean': 0.09, 'std': 0.29}","{'mean': 0.17, 'std': 0.37}",0.0007,numeric,1,medical history
+10,asthma,"{'mean': 0.08, 'std': 0.28}","{'mean': 0.11, 'std': 0.31}",0.2051,numeric,1,medical history
+11,cad,"{'mean': 0.13, 'std': 0.34}","{'mean': 0.22, 'std': 0.41}",0.0007,numeric,1,medical history
+12,chf,"{'mean': 0.09, 'std': 0.29}","{'mean': 0.23, 'std': 0.42}",0.0,numeric,1,medical history
+13,copd,"{'mean': 0.1, 'std': 0.3}","{'mean': 0.2, 'std': 0.4}",0.0,numeric,1,medical history
+14,cva,"{'mean': 0.04, 'std': 0.19}","{'mean': 0.06, 'std': 0.24}",0.1067,numeric,1,medical history
+15,diabetes_-_insulin,"{'mean': 0.19, 'std': 0.39}","{'mean': 0.3, 'std': 0.46}",0.0001,numeric,1,medical history
+16,diabetes_-_oral_agent,"{'mean': 0.13, 'std': 0.34}","{'mean': 0.15, 'std': 0.36}",0.4612,numeric,1,medical history
+17,etoh,"{'mean': 0.39, 'std': 0.49}","{'mean': 0.4, 'std': 0.49}",0.8165,numeric,1,medical history
+18,gi_bleed,"{'mean': 0.2, 'std': 0.4}","{'mean': 0.24, 'std': 0.42}",0.2002,numeric,1,medical history
+19,hemo_or_pd,"{'mean': 0.03, 'std': 0.17}","{'mean': 0.08, 'std': 0.28}",0.0002,numeric,1,medical history
+20,hepatitis,"{'mean': 0.41, 'std': 0.49}","{'mean': 0.42, 'std': 0.5}",0.7016,numeric,1,medical history
+21,hypertension,"{'mean': 0.5, 'std': 0.5}","{'mean': 0.56, 'std': 0.5}",0.0796,numeric,1,medical history
+22,liver_failure,"{'mean': 0.32, 'std': 0.47}","{'mean': 0.41, 'std': 0.49}",0.0071,numeric,1,medical history
+23,mi,"{'mean': 0.07, 'std': 0.25}","{'mean': 0.11, 'std': 0.31}",0.0318,numeric,1,medical history
+24,pvd,"{'mean': 0.04, 'std': 0.19}","{'mean': 0.09, 'std': 0.29}",0.0004,numeric,1,medical history
+25,pacemaker,"{'mean': 0.03, 'std': 0.17}","{'mean': 0.05, 'std': 0.22}",0.1524,numeric,1,medical history
+26,pancreatitis,"{'mean': 0.05, 'std': 0.21}","{'mean': 0.05, 'std': 0.21}",0.9261,numeric,1,medical history
+27,renal_failure,"{'mean': 0.12, 'std': 0.33}","{'mean': 0.26, 'std': 0.44}",0.0,numeric,1,medical history
+28,seizures,"{'mean': 0.07, 'std': 0.25}","{'mean': 0.09, 'std': 0.28}",0.2563,numeric,1,medical history
+29,smoker,"{'mean': 0.18, 'std': 0.38}","{'mean': 0.24, 'std': 0.42}",0.0489,numeric,1,medical history
+30,abdominal,"{'mean': 1.86, 'std': 2.7}","{'mean': 2.24, 'std': 2.71}",0.001,numeric,1,pain
+31,back,"{'mean': 1.27, 'std': 2.47}","{'mean': 1.55, 'std': 2.53}",0.0102,numeric,1,pain
+32,both_legs,"{'mean': 0.23, 'std': 1.15}","{'mean': 0.33, 'std': 1.37}",0.0395,numeric,1,pain
+33,chest_pain,"{'mean': 0.3, 'std': 1.32}","{'mean': 0.43, 'std': 1.54}",0.0223,numeric,1,pain
+34,generalized,"{'mean': 0.69, 'std': 1.83}","{'mean': 0.17, 'std': 0.96}",0.0,numeric,1,pain
+35,headache,"{'mean': 0.85, 'std': 2.02}","{'mean': 0.71, 'std': 1.8}",0.096,numeric,1,pain
+36,incisional,"{'mean': 1.43, 'std': 2.47}","{'mean': 1.7, 'std': 2.49}",0.0114,numeric,1,pain
+37,jaw,"{'mean': 0.04, 'std': 0.51}","{'mean': 0.03, 'std': 0.38}",0.5541,numeric,1,pain
+38,left_arm,"{'mean': 0.14, 'std': 0.93}","{'mean': 0.14, 'std': 0.86}",0.9171,numeric,1,pain
+39,left_chest,"{'mean': 0.14, 'std': 0.91}","{'mean': 0.24, 'std': 1.22}",0.0219,numeric,1,pain
+40,left_elbow,"{'mean': 0.0, 'std': 0.16}","{'mean': 0.0, 'std': 0.0}",0.3886,numeric,1,pain
+41,left_flank,"{'mean': 0.06, 'std': 0.63}","{'mean': 0.05, 'std': 0.5}",0.6529,numeric,1,pain
+42,left_foot,"{'mean': 0.02, 'std': 0.31}","{'mean': 0.07, 'std': 0.68}",0.0173,numeric,1,pain
+43,left_hip,"{'mean': 0.11, 'std': 0.78}","{'mean': 0.02, 'std': 0.41}",0.002,numeric,1,pain
+44,left_leg,"{'mean': 0.29, 'std': 1.34}","{'mean': 0.21, 'std': 1.1}",0.1332,numeric,1,pain
+45,left_lower_quad,"{'mean': 0.0, 'std': 0.0}","{'mean': 0.06, 'std': 0.6}",0.0007,numeric,1,pain
+46,left_lower_quadrant,"{'mean': 0.09, 'std': 0.8}","{'mean': 0.03, 'std': 0.42}",0.0166,numeric,1,pain
+47,left_shoulder,"{'mean': 0.14, 'std': 0.87}","{'mean': 0.18, 'std': 1.04}",0.345,numeric,1,pain
+48,left_upper_quad,"{'mean': 0.0, 'std': 0.13}","{'mean': 0.1, 'std': 0.77}",0.0,numeric,1,pain
+49,left_upper_quadrant,"{'mean': 0.08, 'std': 0.7}","{'mean': 0.05, 'std': 0.54}",0.2295,numeric,1,pain
+50,mediastinal,"{'mean': 0.07, 'std': 0.66}","{'mean': 0.05, 'std': 0.57}",0.3379,numeric,1,pain
+51,midscapular,"{'mean': 0.02, 'std': 0.35}","{'mean': 0.02, 'std': 0.3}",0.8459,numeric,1,pain
+52,neck,"{'mean': 0.45, 'std': 1.56}","{'mean': 0.4, 'std': 1.48}",0.462,numeric,1,pain
+53,not_indicated,"{'mean': 0.36, 'std': 1.14}","{'mean': 0.3, 'std': 1.1}",0.2332,numeric,1,pain
+54,perineum,"{'mean': 0.14, 'std': 0.92}","{'mean': 0.04, 'std': 0.48}",0.0026,numeric,1,pain
+55,periumbilical,"{'mean': 0.01, 'std': 0.24}","{'mean': 0.0, 'std': 0.0}",0.1603,numeric,1,pain
+56,right_arm,"{'mean': 0.18, 'std': 1.08}","{'mean': 0.22, 'std': 1.11}",0.4883,numeric,1,pain
+57,right_chest,"{'mean': 0.25, 'std': 1.23}","{'mean': 0.22, 'std': 1.12}",0.6138,numeric,1,pain
+58,right_elbow,"{'mean': 0.02, 'std': 0.34}","{'mean': 0.0, 'std': 0.13}",0.292,numeric,1,pain
+59,right_flank,"{'mean': 0.11, 'std': 0.83}","{'mean': 0.06, 'std': 0.58}",0.1013,numeric,1,pain
+60,right_foot,"{'mean': 0.13, 'std': 0.9}","{'mean': 0.14, 'std': 0.91}",0.732,numeric,1,pain
+61,right_hip,"{'mean': 0.11, 'std': 0.83}","{'mean': 0.03, 'std': 0.47}",0.0075,numeric,1,pain
+62,right_leg,"{'mean': 0.4, 'std': 1.53}","{'mean': 0.35, 'std': 1.4}",0.4469,numeric,1,pain
+63,right_lower_quad,"{'mean': 0.01, 'std': 0.29}","{'mean': 0.08, 'std': 0.63}",0.0023,numeric,1,pain
+64,right_lower_quadrant,"{'mean': 0.2, 'std': 1.11}","{'mean': 0.04, 'std': 0.47}",0.0,numeric,1,pain
+65,right_shoulder,"{'mean': 0.31, 'std': 1.43}","{'mean': 0.19, 'std': 1.02}",0.02,numeric,1,pain
+66,right_upper_quad,"{'mean': 0.01, 'std': 0.2}","{'mean': 0.23, 'std': 1.21}",0.0,numeric,1,pain
+67,right_upper_quadrant,"{'mean': 0.35, 'std': 1.46}","{'mean': 0.04, 'std': 0.46}",0.0,numeric,1,pain
+68,max_wgt,"{'mean': 93.55, 'std': 29.88}","{'mean': 90.43, 'std': 27.37}",0.0123,numeric,1,diet
+69,min_wgt,"{'mean': 84.28, 'std': 24.22}","{'mean': 79.25, 'std': 22.99}",0.0,numeric,1,diet
+70,wgt_change,"{'mean': 9.27, 'std': 21.65}","{'mean': 11.18, 'std': 19.47}",0.0326,numeric,1,diet
+71,loss_perc,"{'mean': 0.09, 'std': 0.13}","{'mean': 0.11, 'std': 0.15}",0.0002,numeric,1,diet
+72,anti_mitochondrial,"{'mean': -0.42, 'std': 0.5}","{'mean': -0.56, 'std': 0.52}",0.0377,numeric,1,antibodies
+73,anti_nuclear_titer,"{'mean': -0.3, 'std': 1.41}","{'mean': -0.25, 'std': 1.58}",0.8276,numeric,1,antibodies
+74,anti_nuclear,"{'mean': 0.17, 'std': 0.53}","{'mean': 0.14, 'std': 0.54}",0.7601,numeric,1,antibodies
+75,anti_smooth_muscle,"{'mean': -0.1, 'std': 1.15}","{'mean': -0.24, 'std': 1.13}",0.3401,numeric,1,antibodies
+76,min_fibrinogen,"{'mean': 210.14, 'std': 156.63}","{'mean': 202.47, 'std': 134.04}",0.292,numeric,1,blood
+77,max_fibrinogen,"{'mean': 319.64, 'std': 173.97}","{'mean': 333.7, 'std': 180.15}",0.1152,numeric,1,blood
+78,avg_fibrinogen,"{'mean': 257.22, 'std': 150.86}","{'mean': 259.86, 'std': 131.83}",0.7101,numeric,1,blood
+79,min_platelet,"{'mean': 107.03, 'std': 84.83}","{'mean': 95.62, 'std': 78.57}",0.0002,numeric,1,blood
+80,max_platelet,"{'mean': 267.06, 'std': 188.72}","{'mean': 264.04, 'std': 180.98}",0.6618,numeric,1,blood
+81,avg_platelet,"{'mean': 168.8, 'std': 112.84}","{'mean': 159.0, 'std': 103.85}",0.0156,numeric,1,blood
+82,min_inr,"{'mean': 1.29, 'std': 0.38}","{'mean': 1.27, 'std': 0.39}",0.1415,numeric,1,blood
+83,max_inr,"{'mean': 2.46, 'std': 2.16}","{'mean': 3.3, 'std': 6.03}",0.0,numeric,1,blood
+84,avg_inr,"{'mean': 1.64, 'std': 0.66}","{'mean': 1.72, 'std': 0.91}",0.0126,numeric,1,blood
+85,min_pt,"{'mean': 14.47, 'std': 3.57}","{'mean': 14.07, 'std': 4.49}",0.0085,numeric,1,blood
+86,max_pt,"{'mean': 24.87, 'std': 17.61}","{'mean': 26.18, 'std': 53.53}",0.384,numeric,1,blood
+87,avg_pt,"{'mean': 17.76, 'std': 5.81}","{'mean': 16.99, 'std': 5.82}",0.0004,numeric,1,blood
+88,min_ptt,"{'mean': 29.97, 'std': 8.51}","{'mean': 29.61, 'std': 7.13}",0.2215,numeric,1,blood
+89,max_ptt,"{'mean': 65.68, 'std': 41.61}","{'mean': 75.06, 'std': 46.21}",0.0,numeric,1,blood
+90,avg_ptt,"{'mean': 40.18, 'std': 13.92}","{'mean': 41.14, 'std': 13.26}",0.0634,numeric,1,blood
+91,first_ferritin,"{'mean': 1042.19, 'std': 2737.92}","{'mean': 473.28, 'std': 455.86}",0.0,numeric,1,blood
+92,first_iron,"{'mean': 72.11, 'std': 59.57}","{'mean': 69.25, 'std': 55.28}",0.4291,numeric,1,blood
+93,first_iron_bind,"{'mean': 201.97, 'std': 91.72}","{'mean': 208.31, 'std': 82.87}",0.2533,numeric,1,blood
+94,first_transferrin,"{'mean': 155.34, 'std': 70.57}","{'mean': 160.23, 'std': 63.8}",0.2526,numeric,1,blood
+95,last_ferritin,"{'mean': 978.28, 'std': 2282.61}","{'mean': 524.84, 'std': 634.04}",0.0001,numeric,1,blood
+96,last_iron,"{'mean': 68.5, 'std': 57.73}","{'mean': 63.94, 'std': 51.64}",0.1937,numeric,1,blood
+97,last_iron_bind,"{'mean': 199.29, 'std': 91.5}","{'mean': 198.7, 'std': 83.03}",0.9158,numeric,1,blood
+98,last_transferrin,"{'mean': 153.29, 'std': 70.4}","{'mean': 152.8, 'std': 63.86}",0.9108,numeric,1,blood
+99,min_albumin,"{'mean': 2.74, 'std': 0.69}","{'mean': 2.52, 'std': 0.67}",0.0,numeric,1,breakdown products
+100,max_albumin,"{'mean': 3.55, 'std': 0.73}","{'mean': 3.36, 'std': 0.67}",0.0,numeric,1,breakdown products
+101,avg_albumin,"{'mean': 3.11, 'std': 0.6}","{'mean': 2.91, 'std': 0.57}",0.0,numeric,1,breakdown products
+102,avg_alb_ascites,"{'mean': 1.47, 'std': 0.45}","{'mean': 1.38, 'std': 0.48}",0.1225,numeric,1,breakdown products
+103,min_bilirubin,"{'mean': 2.54, 'std': 5.14}","{'mean': 2.98, 'std': 6.15}",0.0427,numeric,1,breakdown products
+104,max_bilirubin,"{'mean': 7.71, 'std': 11.58}","{'mean': 8.68, 'std': 12.24}",0.0353,numeric,1,breakdown products
+105,avg_bilirubin,"{'mean': 4.63, 'std': 7.24}","{'mean': 5.26, 'std': 8.17}",0.0347,numeric,1,breakdown products
+106,avg_bili_ascites,"{'mean': 7.35, 'std': 14.25}","{'mean': 6.49, 'std': 10.55}",0.5958,numeric,1,breakdown products
+107,avg_bili_direct,"{'mean': 5.01, 'std': 6.14}","{'mean': 5.14, 'std': 6.35}",0.7275,numeric,1,breakdown products
+108,avg_bili_indirect,"{'mean': 3.05, 'std': 3.36}","{'mean': 3.08, 'std': 3.23}",0.8659,numeric,1,breakdown products
+109,min_creatinine,"{'mean': 0.95, 'std': 0.91}","{'mean': 0.98, 'std': 0.98}",0.3519,numeric,1,breakdown products
+110,max_creatinine,"{'mean': 2.4, 'std': 2.26}","{'mean': 2.82, 'std': 4.43}",0.0018,numeric,1,breakdown products
+111,avg_creatinine,"{'mean': 1.49, 'std': 1.34}","{'mean': 1.64, 'std': 1.51}",0.0075,numeric,1,breakdown products
+112,avg_ck,"{'mean': 444.46, 'std': 1778.09}","{'mean': 545.19, 'std': 2522.51}",0.337,numeric,1,breakdown products
+113,avg_ck_iso,"{'mean': 8.6, 'std': 17.28}","{'mean': 10.06, 'std': 18.9}",0.1453,numeric,1,breakdown products
+114,avg_creat_urine,"{'mean': 107.39, 'std': 63.14}","{'mean': 99.39, 'std': 57.41}",0.0104,numeric,1,breakdown products
+115,min_alt,"{'mean': 47.42, 'std': 145.71}","{'mean': 46.36, 'std': 183.94}",0.8669,numeric,1,enzymes
+116,max_alt,"{'mean': 287.37, 'std': 778.42}","{'mean': 342.56, 'std': 804.94}",0.069,numeric,1,enzymes
+117,avg_alt,"{'mean': 121.4, 'std': 306.25}","{'mean': 129.44, 'std': 302.23}",0.4903,numeric,1,enzymes
+118,min_ast,"{'mean': 80.37, 'std': 419.65}","{'mean': 68.52, 'std': 327.02}",0.4107,numeric,1,enzymes
+119,max_ast,"{'mean': 554.09, 'std': 1582.27}","{'mean': 671.81, 'std': 1699.69}",0.0615,numeric,1,enzymes
+120,avg_ast,"{'mean': 192.95, 'std': 655.83}","{'mean': 197.65, 'std': 512.98}",0.8347,numeric,1,enzymes
+121,min_alkph,"{'mean': 87.9, 'std': 74.29}","{'mean': 96.61, 'std': 86.78}",0.0051,numeric,1,enzymes
+122,max_alkph,"{'mean': 197.58, 'std': 214.59}","{'mean': 240.53, 'std': 312.97}",0.0,numeric,1,enzymes
+123,avg_alkph,"{'mean': 129.51, 'std': 111.77}","{'mean': 147.9, 'std': 141.53}",0.0002,numeric,1,enzymes
+124,min_ld,"{'mean': 279.35, 'std': 489.26}","{'mean': 275.85, 'std': 527.75}",0.8676,numeric,1,enzymes
+125,max_ld,"{'mean': 634.89, 'std': 1219.74}","{'mean': 732.74, 'std': 1691.06}",0.1081,numeric,1,enzymes
+126,avg_ld,"{'mean': 398.8, 'std': 649.52}","{'mean': 407.02, 'std': 673.73}",0.7636,numeric,1,enzymes
+127,min_ld_ascites,"{'mean': 197.01, 'std': 788.7}","{'mean': 128.42, 'std': 374.21}",0.2106,numeric,1,enzymes
+128,max_ld_ascites,"{'mean': 323.83, 'std': 1504.37}","{'mean': 236.68, 'std': 825.97}",0.4199,numeric,1,enzymes
+129,avg_ld_ascites,"{'mean': 259.13, 'std': 1034.58}","{'mean': 174.37, 'std': 522.19}",0.2445,numeric,1,enzymes
+130,min_lactate,"{'mean': 1.57, 'std': 1.43}","{'mean': 1.74, 'std': 1.69}",0.0094,numeric,1,enzymes
+131,max_lactate,"{'mean': 4.29, 'std': 3.37}","{'mean': 5.4, 'std': 4.55}",0.0,numeric,1,enzymes
+132,avg_lactate,"{'mean': 2.66, 'std': 1.96}","{'mean': 3.13, 'std': 2.42}",0.0,numeric,1,enzymes
+133,hep_b_surf_antibody,"{'mean': 1.24, 'std': 1.95}","{'mean': 1.19, 'std': 2.01}",0.7911,numeric,1,hepatitis
+134,hep_b_surf_antigen,"{'mean': -0.19, 'std': 0.39}","{'mean': -0.14, 'std': 0.35}",0.2077,numeric,1,hepatitis
+135,hep_c_antibody,"{'mean': 0.41, 'std': 1.03}","{'mean': 0.28, 'std': 0.99}",0.1571,numeric,1,hepatitis
+136,hep_b_virus_antibody,"{'mean': 0.12, 'std': 1.23}","{'mean': 0.26, 'std': 1.36}",0.258,numeric,1,hepatitis
+137,avg_phosphate,"{'mean': 3.54, 'std': 1.15}","{'mean': 3.7, 'std': 1.13}",0.0001,numeric,1,other lab
+138,avg_gamma_glut,"{'mean': 404.26, 'std': 694.72}","{'mean': 338.28, 'std': 443.82}",0.4162,numeric,1,other lab
+139,avg_amonia,"{'mean': 63.63, 'std': 55.24}","{'mean': 69.26, 'std': 50.2}",0.1384,numeric,1,other lab
+140,avg_acetamin,"{'mean': 15.09, 'std': 19.8}","{'mean': 14.05, 'std': 10.73}",0.7227,numeric,1,other lab
+141,avg_sodium,"{'mean': 137.74, 'std': 4.3}","{'mean': 137.64, 'std': 4.18}",0.5002,numeric,1,other lab
+142,avg_potassium,"{'mean': 4.08, 'std': 0.44}","{'mean': 4.11, 'std': 0.44}",0.0653,numeric,1,other lab
+143,min_protein,"{'mean': 47.58, 'std': 60.45}","{'mean': 58.92, 'std': 87.78}",0.005,numeric,1,proteins
+144,max_protein,"{'mean': 93.17, 'std': 116.46}","{'mean': 121.31, 'std': 158.18}",0.0002,numeric,1,proteins
+145,avg_protein,"{'mean': 65.09, 'std': 72.81}","{'mean': 84.48, 'std': 104.89}",0.0001,numeric,1,proteins
+146,avg_tot_protein,"{'mean': 5.77, 'std': 1.09}","{'mean': 5.97, 'std': 1.07}",0.0417,numeric,1,proteins
+147,avg_urine_prot,"{'mean': 133.3, 'std': 262.81}","{'mean': 127.42, 'std': 282.84}",0.8326,numeric,1,proteins
+148,avg_ascite_prot,"{'mean': 3.25, 'std': 24.6}","{'mean': 1.35, 'std': 0.97}",0.1707,numeric,1,proteins
+149,avg_fetoprotein,"{'mean': 2762.37, 'std': 30239.78}","{'mean': 4005.21, 'std': 64628.62}",0.8002,numeric,1,proteins
+150,mortality30,"{'mean': 0.23, 'std': 0.42}","{'mean': 0.32, 'std': 0.47}",0.0,numeric,1,mortality
+151,time2event,"{'mean': 106.24, 'std': 225.9}","{'mean': 310.58, 'std': 590.66}",0.0,numeric,1,mortality
+152,activity,"{'Bedrest': 0.98, 'Commode': 0.01, 'Chair': 0.01}","{'Bedrest': 0.99, 'Commode': 0.0, 'Chair': 0.0, 'Ambulate': 0.0, 'Dangle': 0.0}",0.3535,categorical,1,activity
+153,activity_tolerance,"{'Tolerated Well': 0.8, 'Good': 0.17, 'Fair': 0.02}","{'Tolerated Well': 0.92, 'Good': 0.05, 'Fair': 0.02, 'Poor': 0.0}",0.0,categorical,1,activity
+154,braden_activity,"{'Bedfast': 0.89, 'Walks Occasionally': 0.05, 'Chairfast': 0.05}","{'Bedfast': 0.92, 'Chairfast': 0.04, 'Walks Occasionally': 0.03, 'Walks Frequently': 0.01}",0.1981,categorical,1,activity
+155,braden_mobility,"{'Slight Limitations': 0.56, 'Very Limited': 0.32, 'No Limitations': 0.07}","{'Slight Limitations': 0.48, 'Very Limited': 0.38, 'Completely Immobile': 0.08, 'No Limitations': 0.06}",0.0,categorical,1,activity
+156,family_communication,"{'Family Visited': 0.5, 'Family Talked to RN': 0.25, 'Family Called': 0.18}","{'Family Visited': 0.66, 'Family Called': 0.27, 'Family Talked to RN': 0.04, 'Family Talked to MD': 0.03, 'Social Service Involved': 0.01, 'Family Conference': 0.0}",0.0,categorical,1,demographics
+157,marital_status,"{'Married': 0.44, 'Single': 0.4, 'Divored': 0.1}","{'Married': 0.46, 'Single': 0.35, 'Divorced': 0.08, 'Widowed': 0.07, 'Divored': 0.03, 'A': 0.02}",0.0,categorical,1,demographics
+158,race,"{'White': 0.68, 'Black / African': 0.11, 'Hispanic or Latino': 0.06}","{'White': 0.72, 'Black / African': 0.16, 'Hispanic or Latino': 0.05, 'Asian': 0.03, 'Unable to Obtain': 0.03, 'Unknown / Not Specified': 0.01, 'Patient Declined to Answer': 0.01}",0.0056,categorical,1,demographics
+159,gender,"{'M': 0.66, 'F': 0.34}","{'M': 0.67, 'F': 0.33}",0.7501,categorical,1,demographics
+160,appetite,"{'Good': 0.39, 'Fair': 0.3, 'Poor': 0.23}","{'Good': 0.36, 'Poor': 0.29, 'Fair': 0.29, 'Deferred': 0.04, 'Not assessed': 0.03}",0.5102,categorical,1,diet
+161,braden_nutrition,"{'Probably Inadequate': 0.68, 'Adequate': 0.24, 'Very Poor': 0.07}","{'Probably Inadequate': 0.74, 'Adequate': 0.19, 'Very Poor': 0.07, 'Excellent': 0.0}",0.0003,categorical,1,diet
+162,diet_type,"{'NPO': 0.65, 'House': 0.09, 'Tube Feeding': 0.09}","{'NPO': 0.64, 'Tube Feeding': 0.11, 'House': 0.06, 'Diabetic': 0.05, 'NAS/Low Cholesterol': 0.04, 'Clear Liquid': 0.04, 'TPN': 0.02, 'Renal': 0.02, 'Full Liquid': 0.01, '2 GM Sodium Heart Healthy': 0.0, 'Soft Solid': 0.0}",0.0,categorical,1,diet
+163,special_diet,"{'0': 0.66, '1': 0.34}","{'0': 0.57, '1': 0.43}",0.0392,categorical,1,diet
+164,heart_rhythm,"{'SR (Sinus Rhythm)': 0.7, 'ST (Sinus Tachycardia) ': 0.16, 'AF (Atrial Fibrillation)': 0.05}","{'Normal Sinus': 0.69, 'ST (Sinus Tachycardia) ': 0.13, 'SR (Sinus Rhythm)': 0.07, 'AF (Atrial Fibrillation)': 0.05, 'SB (Sinus Bradycardia)': 0.02, 'V Paced': 0.01, '1st Deg AV Block': 0.01, 'AV Paced': 0.01, 'Atrial Flutter': 0.0, 'JR (Junctional Rhythm)': 0.0, 'Junctional': 0.0, 'MAT (Multifocal atrial tachycardia)': 0.0}",0.0,categorical,1,heart lung
+165,lll_lung_sounds,"{'Diminished': 0.59, 'Clear': 0.33, 'Rhonchi': 0.04}","{'Diminished': 0.47, 'Clear': 0.36, 'Coarse': 0.12, 'Crackles': 0.05, 'Rhonchi': 0.0, 'Exp Wheeze': 0.0, 'Ins/Exp Wheeze': 0.0}",0.0,categorical,1,heart lung
+166,lul_lung_sounds,"{'Clear': 0.88, 'Rhonchi': 0.08, 'Diminished': 0.02}","{'Clear': 0.79, 'Coarse': 0.17, 'Diminished': 0.01, 'Rhonchi': 0.01, 'Exp Wheeze': 0.01, 'Ins/Exp Wheeze': 0.0, 'Crackles': 0.0, 'Pleural Friction': 0.0}",0.0,categorical,1,heart lung
+167,rll_lung_sounds,"{'Diminished': 0.59, 'Clear': 0.32, 'Rhonchi': 0.04}","{'Diminished': 0.46, 'Clear': 0.36, 'Coarse': 0.12, 'Crackles': 0.04, 'Exp Wheeze': 0.0, 'Rhonchi': 0.0, 'Ins/Exp Wheeze': 0.0, 'Bronchial': 0.0}",0.0,categorical,1,heart lung
+168,rul_lung_sounds,"{'Clear': 0.89, 'Rhonchi': 0.08, 'Diminished': 0.02}","{'Clear': 0.79, 'Coarse': 0.17, 'Rhonchi': 0.01, 'Diminished': 0.01, 'Exp Wheeze': 0.01, 'Ins/Exp Wheeze': 0.0, 'Crackles': 0.0, 'Insp Wheeze': 0.0}",0.0,categorical,1,heart lung
+169,respiratory_effort,"{'Normal': 0.97, 'Shallow': 0.01, 'Labored': 0.01}","{'Normal': 0.94, 'Shallow': 0.03, 'Dyspneic': 0.01, 'Labored': 0.01, 'Agonal': 0.01, 'Apneic': 0.0}",0.0104,categorical,1,heart lung
+170,respiratory_pattern,"{'Regular': 0.97, 'Tachypneic': 0.02, 'Irregular': 0.0}","{'Regular': 0.98, 'Tachypneic': 0.02, 'Irregular': 0.0}",0.2793,categorical,1,heart lung
+171,mental_status,"{'Forgets limitations': 0.54, 'Oriented to own ability': 0.46}","{'Forgets limitations': 0.6, 'Oriented to own ability': 0.4}",0.1098,categorical,1,medical history
+172,recreational_drug_use,"{'0': 0.81, '1': 0.19}","{'0': 0.78, '1': 0.22}",0.5645,categorical,1,medical history
+173,pain_cause,"{'At Rest': 0.69, 'Unknown': 0.11, 'Movement/Turning': 0.07}","{'At Rest': 0.66, 'Movement/Turning': 0.09, 'Activity': 0.06, 'Cough/Deep Breath': 0.06, 'Incisional': 0.04, 'Procedural': 0.02, 'Situational': 0.02, 'Unknown': 0.02, 'Injury': 0.01, 'Wound': 0.01, 'Sitting Up': 0.0}",0.0,categorical,1,pain
+174,pain_location,"{'Not Indicated': 0.64, 'Abdominal': 0.11, 'Incisional': 0.09}","{'Not Indicated': 0.79, 'Incisional': 0.07, 'Abdominal': 0.07, 'Back': 0.03, 'Headache': 0.01, 'Both Legs': 0.0, 'Neck': 0.0, 'Right Upper Quad': 0.0, 'Right Leg': 0.0, 'Left Leg': 0.0, 'Chest Pain': 0.0, 'Left Arm': 0.0, 'Left Chest': 0.0, 'Left Shoulder': 0.0, 'Right Lower Quad': 0.0, 'Right Chest': 0.0, 'Right Flank': 0.0, 'Right Foot': 0.0, 'Right Shoulder': 0.0, 'Left Upper Quad': 0.0}",0.0,categorical,1,pain
+175,pain_present,"{'No': 0.65, 'Yes': 0.35}","{'No': 0.8, 'Yes': 0.2}",0.0,categorical,1,pain
+176,pain_type,"{'None': 0.59, 'Constant': 0.24, 'Intermittent': 0.07}","{'None': 0.65, 'Aching': 0.17, 'Constant': 0.1, 'Sharp': 0.03, 'Intermittent': 0.02, 'Dull': 0.01, 'Gassy': 0.0, 'Burning': 0.0, 'Stabbing': 0.0, 'Throbbing': 0.0, 'Annoying': 0.0, 'Cramping': 0.0, 'Shooting': 0.0, 'Radiating': 0.0, 'Bloated': 0.0}",0.0,categorical,1,pain
+177,abdominal_assessment,"{'Soft': 0.47, 'Soft Distended': 0.3, 'Ascites': 0.09}","{'Soft': 0.42, 'Soft Distended': 0.27, 'Ascites': 0.14, 'Obese': 0.08, 'Firm Distended': 0.07, 'Firm': 0.01, 'Tender': 0.01, 'Open': 0.01}",0.0,categorical,1,physical assessment
+178,bowel_sounds,"{'Present': 0.82, 'Hypoactive': 0.13, 'Absent': 0.04}","{'Present': 0.79, 'Hypoactive': 0.13, 'Absent': 0.08, 'Hyperactive': 0.0}",0.0009,categorical,1,physical assessment
+179,braden_moisture,"{'Rarely Moist': 0.51, 'Occasionally Moist': 0.47, 'Moist': 0.01}","{'Rarely Moist': 0.49, 'Occasionally Moist': 0.47, 'Moist': 0.03, 'Consistently Moist': 0.01}",0.0013,categorical,1,physical assessment
+180,cough_reflex,"{'Intact': 0.84, 'Impaired': 0.14, 'Absent': 0.03}","{'Intact': 0.78, 'Impaired': 0.15, 'Absent': 0.08}",0.0,categorical,1,physical assessment
+181,gag_reflex,"{'Intact': 0.77, 'Impaired': 0.19, 'Absent': 0.04}","{'Intact': 0.67, 'Impaired': 0.23, 'Absent': 0.09}",0.0,categorical,1,physical assessment
+182,oral_cavity,"{'Teeth/Tissue WNL': 0.92, 'Bleeding Gum': 0.03, 'Dentures': 0.02}","{'Teeth/Tissue WNL': 0.93, 'Bleeding Gum': 0.03, 'Thrush': 0.01, 'Dentures': 0.01, 'Oral Ulcers': 0.01, 'Loose Teeth': 0.0}",0.0018,categorical,1,physical assessment
+183,skin_color,"{'Normal for Race': 0.76, 'Jaundiced': 0.19, 'Pale': 0.04}","{'Normal for Race': 0.58, 'Jaundiced': 0.31, 'Pale': 0.07, 'Flushed': 0.02, 'Bronze': 0.01, 'Mottled': 0.01, 'Cyanotic': 0.0}",0.0,categorical,1,physical assessment
+184,skin_condition,"{'Dry ': 0.99, 'Dry': 0.01, 'Diaphoretic': 0.0}","{'Dry': 0.64, 'Dry ': 0.35, 'Clammy': 0.01, 'Diaphoretic': 0.0}",0.0,categorical,1,physical assessment
+185,speech,"{'Normal': 0.68, 'Intubated/trached': 0.26, 'Garbled': 0.03}","{'Normal': 0.55, 'Intubated/trached': 0.33, 'Garbled': 0.08, 'Slurred': 0.02, 'None': 0.01, 'Aphasic': 0.01, 'Mute': 0.0}",0.0,categorical,1,physical assessment

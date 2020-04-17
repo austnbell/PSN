@@ -18,7 +18,9 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import SpectralClustering
 
 
-
+#########################################################################################
+# Graph Generation and Sampling
+#########################################################################################
 
 def genMultiDiGraph(df, included_group = "All"):
     G = nx.MultiDiGraph()   # or DiGraph, MultiGraph, MultiDiGraph, etc
@@ -39,6 +41,15 @@ def genMultiDiGraph(df, included_group = "All"):
             G.add_edges_from([(row[0], row[1], e_attr)])
             
     return G
+
+
+
+
+
+
+######################################################################################
+# Clustering 
+######################################################################################
 
 #### Identify the optimal K for Spectral Clustering levering the eigen gap statistic
 def eigenDecomposition(A, plot = True, topK = 5):
