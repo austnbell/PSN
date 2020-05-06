@@ -1,5 +1,7 @@
-# PSN
+# Patient Similarity Networks
+Interactively click through patient subpopulations utilizing networks based on patient similarity across a variety of features. 
 
+[[insert demo or gif]]
 
 ## Overview of the Application
 This application utilizes patient similarity networks ("PSN") to let the user interactively explore patient subpopulations found in chronic liver disease patients from the MIMIC-III database. In PSNs, each node represents a patient and each edge between two patients represents their similarity for that particular set of data. By measuring similarity between each patient to patient combination across a variety of data subgroups, the application displays a network of patients that is both interpretable and accessible.
@@ -28,13 +30,27 @@ The fourth and final tab displays the results of a survival analysis.  A surviva
 
 
 ## Exploration Patient Subpopulations
+While using the application, if the user identifies a smaller cluster that they are curious about.  they can click into it, compare it to the general population, and evaluate their results in downstream tasks.  Continuing with the “medical history” example above, I display an example of clicking one of the smaller clusters. A screenshot of this is displayed below. 
+![Networks Medical](./img/networks_medical_history.jpg)
+*screenshot after selecting a random subpopulation using the “medical history” subgroup.  We can see that this patient population is characterized by higher rates of anemia and coronary artery disease than the general chronic liver disease population.*
 
-[[summary of methodology]]
+For this selected patient subpopulation, we can also review their results within our downstream prediction task. The next two screenshots display results for this subpopulation in the 30-day mortality prediction and survival outcomes, respectively. 
+![Mortality Medical](./img/mortality_medical_history.jpg)
+*30-day prediction mortality page after selecting a random patient subpopulation from the “medical history” data subgroup. We see that summary statistics related to mortality and the feature importance chart have been updated to reflect the selected patient subpopulation.*
+
+The above screenshot demonstrates that this patient subpopulation is less likely to die within 30 days, but also has an average shorter lifespan than the general population. We also find that Creatinine, PT, and nutrition levels are significantly more important in predicting mortality for this subpopulation. 
+
+![Survival Medical](./img/survival_medical_history.jpg)
+*Survival analysis tab after selecting a patient subpopulation within the “medical history” patient similarity network. We see that each of our plots from have changed to reflect the subpopulation choice.*
+
+In line with our expectations from the 30-day mortality prediction outcome, Figure 12 demonstrates that our selected subpopulation is less likely to die within 30-days of hospital discharge, but has a shorter lifespan overall. 
+
+## Additional Information
+
+The flow of the analysis to develop the inputs for the Shiny application is as follows:
+
+One of the key benefits to patient similarity networks is that we can combine heterogenous data sources via separate similarity networks. In the case of this project, I combine various data subgroups such as all features related to past medical history, all features related to enzyme counts, all features related to protein counts, etc. This is highlighted in the screenshot below:
 
 
-Flow of the current analysis:
-  1. dataPrep
-  2. SimilarityMatrices
-  3. graphAnalysis
-  4. HEOR
+Future projects can also incorporate genomic or longitudinal data for more nuanced or precise exploration of patient subpopulations.
 
