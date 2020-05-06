@@ -1,5 +1,5 @@
-I created LightGBM models for each of the clusters and the total patient data set.
-An overview of this process is as follows (the same methodology applied to each data set).
+This 30-day mortality prediction leverages a LightGBM Model.
+An overview of the training process is as follows.
   * Basic feature engineering including maximums, minimums, averages, first and last values 
   * Drop sparse variables and use mean imputation for other missing data 
   * Fit LightGBM model 
@@ -14,10 +14,8 @@ The table on the right displays the overall results of each model (averaged acro
 The validation set across "Total Cluster" and "Total" are the same set. 
 
 
-The below graph compares the feature importances of the selected cluster and the "Total" model. 
-It is ordered in descending importance of the selected cluster
+The below graph compares the feature importances via Shapley Values of the selected cluster and the "Total" model. 
+It is ordered in descending importance of the selected cluster. If nodes are selected then the feature importances
+of the selected nodes will also appear. 
 
-
-These very basic results demonstrate that we can gain a more nuanced interpretation in predictive
-tasks without significant loss of predictive power. 
 

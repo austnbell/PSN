@@ -13,8 +13,20 @@ library(shinydashboard)
 library(viridis)   
 library(reshape2) 
 library(plotly)
+library(knitr)
+library(kableExtra)
+library(survival)
+library(survminer)
+library(broom)
 library(reticulate)
 shapPipeline <- import("shapPipeline") # python functions
+
+####### we first need to ensure that the python environment is available
+# Create a virtual environment for python
+virtualenv_create(envname = "python_environment", python= "python3")
+virtualenv_install("python_environment", packages = c('pandas','numpy', 'shap', 'pickle'))
+use_virtualenv("python_environment", required = TRUE)
+
 
 
 
@@ -101,3 +113,13 @@ event_stats <- patient_df %>%
 
 
 
+# Survival Analysis -------------------------------------------------------
+
+survival <- patient_df %>%
+  select(subject_id, cluster, time2event) %>%
+  mutate(years2event = time2event / 365)
+survival$survival <- ifelse(is.na(survival$time2event) , 0, 1)
+
+# run survival analysis
+sa_cluster <- survfit(Surv(time2event, survival) ~ cluster, data = survival)
+sa_total <- survfit(Surv(time2event, survival) ~ 1, data = survival)

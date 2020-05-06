@@ -7,6 +7,7 @@ library(tidyverse)
 
 # Display our Network -----------------------------------------------------
 
+
 # Interactive
 displayVis <- function(input, output, session, g){
   
@@ -15,6 +16,11 @@ displayVis <- function(input, output, session, g){
   vis_data$nodes$color = c("steelblue", "forestgreen")[as.factor(V(g)$color)]
   vis_data$edges$color <- c("grey")
   
+  # legend nodes
+  lnodes <- data.frame(label = c("Cluster 0", "Cluster 1"), 
+                       color = c("steelblue", "forestgreen"),
+                       title = "Legend") 
+  
   # plot graph
   visNetwork(nodes = vis_data$nodes, edges = vis_data$edges, height = "500px") %>%
     visPhysics(stabilization = FALSE)  %>%
@@ -22,18 +28,20 @@ displayVis <- function(input, output, session, g){
     visNodes(color = list(highlight = 'darkred'))%>%
     visOptions(highlightNearest = list(enabled = T, degree = 2, hover = F)) %>%
     visEvents(select = "function(nodes) {
-                Shiny.onInputChange('current_node_id', nodes.nodes);
-                ;}") %>% 
+              Shiny.onInputChange('current_node_id', nodes.nodes);
+              ;}") %>% 
     visInteraction(dragNodes = FALSE, 
                    dragView = FALSE, 
                    zoomView = TRUE, 
                    selectable = TRUE,
                    multiselect = TRUE) %>%
     visNodes(color = list(highlight = 'darkred'))%>%
-    visIgraphLayout(layout = "layout_with_fr", randomSeed =42) 
+    visIgraphLayout(layout = "layout_with_fr", randomSeed =42) %>%
+    visLegend( main = "Legend", addNodes = lnodes, useGroups = FALSE, stepY = 50)
   
   
-}
+  }
+
 
 # standard Igraph
 displayNetworks <- function(input, output, session, sg){

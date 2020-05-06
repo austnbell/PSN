@@ -24,6 +24,7 @@ ui <- dashboardPage(
       menuItem("Project Introduction", tabName = "introduction", icon = icon("question-circle")),
       menuItem("Networks", tabName = "network", icon = icon("project-diagram")),
       menuItem("30-day Mortality",tabName = "predictions", icon = icon("brain")),
+      menuItem("Survival Analysis",tabName = "surv", icon = icon("chart-line")),
     
     
       radioButtons(inputId = "select_subgroup", 
@@ -100,7 +101,7 @@ ui <- dashboardPage(
                 box(title = strong("30 Day Mortality Result Summary"), 
                     width = 6,
                     dataTableOutput("30day_summary"),
-                    tableOutput("mortality_summary"), align = "center"
+                    dataTableOutput("mortality_summary"), align = "center"
                     )
               ),
               fluidRow(
@@ -108,6 +109,34 @@ ui <- dashboardPage(
                     width = 12,
                     plotlyOutput("30day_features")
                     )
+              )),
+      
+      # Survival Analysis Tab --------------------------------------------------------
+      
+      tabItem(tabName = "surv",
+              fluidRow(
+                box(title = strong("Survival Analysis Contents"),
+                    width = 6,
+                    includeMarkdown("./text/survival_analysis.md")
+                ),
+                box(title = strong("Survival Probability at a Specific Day Summary"), 
+                    width = 6,
+                    numericInput("num_surv", "Select Number of Days After Last Discharge:", min = 0, max = 3000, value = 365.25),
+                    tableOutput("survival_summary"), 
+                    tableOutput("survival_selected"), 
+                    align = "center"
+                )
+              ),
+              fluidRow(
+                box(title = strong("Survival Plot and Risk"),
+                    width = 6,
+                    plotOutput("survival_plot")
+                ),
+                box(title = strong("Cumulative Hazard Ratio"),
+                    width = 6,
+                    tableOutput("cox_regression"),
+                    plotOutput("cumhaz_plot")
+                )
               ))
               
     )
