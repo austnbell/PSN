@@ -48,9 +48,10 @@ In line with our expectations from the 30-day mortality prediction outcome, Figu
 ## Additional Information
 
 The flow of the analysis to develop the inputs for the Shiny application is as follows:
+![Flow](./img/Capture.JPG)
 
 One of the key benefits to patient similarity networks is that we can combine heterogenous data sources via separate similarity networks. In the case of this project, I combine various data subgroups such as all features related to past medical history, all features related to enzyme counts, all features related to protein counts, etc. This is highlighted in the screenshot below:
-
+![PSN Diagram](./img/psn_diagram.JPG)
 
 Future projects can also incorporate genomic or longitudinal data for more nuanced or precise exploration of patient subpopulations.
 
