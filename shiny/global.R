@@ -19,15 +19,16 @@ library(survival)
 library(survminer)
 library(broom)
 library(reticulate)
-shapPipeline <- import("shapPipeline") # python functions
 
 ####### we first need to ensure that the python environment is available
-# Create a virtual environment for python
-virtualenv_create(envname = "python_environment", python= "python3")
-virtualenv_install("python_environment", packages = c('pandas','numpy', 'shap', 'pickle'))
-use_virtualenv("python_environment", required = TRUE)
+#py_install(c('pandas', 'numpy', 'shap'))
 
+# Create virtual env and install dependencies
+#reticulate::conda_create("ret", conda = "C:/Users/ABell/Anaconda3/condabin/")
+#reticulate::conda_install("ret", packages = c('pandas', 'numpy', 'shap'))
+#reticulate::use_condaenv("ret", required = T)
 
+shapPipeline <- import("shapPipeline") # python functions
 
 
 ###### Paths 
