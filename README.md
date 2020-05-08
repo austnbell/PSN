@@ -2,6 +2,7 @@
 Interactively click through patient subpopulations utilizing networks based on patient similarity across a variety of features. 
 
 ## [Link to Demo Video](https://www.youtube.com/watch?v=wMQAA7ZvXWM&feature=youtu.be)
+For more information, please refer to the associated [presentation](./PSN_Presentation.pptx) on this application 
 
 ## Overview of the Application
 This application utilizes patient similarity networks ("PSN") to let the user interactively explore patient subpopulations found in chronic liver disease patients from the MIMIC-III database. In PSNs, each node represents a patient and each edge between two patients represents their similarity for that particular set of data. By measuring similarity between each patient to patient combination across a variety of data subgroups, the application displays a network of patients that is both interpretable and accessible.
