@@ -13,7 +13,7 @@ displayVis <- function(input, output, session, g){
   
   # format graph
   vis_data <- toVisNetworkData(g)
-  vis_data$nodes$color = c("steelblue", "forestgreen")[as.factor(V(g)$color)]
+  vis_data$nodes$color = c("forestgreen", "steelblue")[as.factor(V(g)$color)]
   vis_data$edges$color <- c("grey")
   
   # legend nodes
